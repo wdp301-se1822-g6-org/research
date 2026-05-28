@@ -1,2 +1,2 @@
-﻿# Topic Revision Log
+# Topic Revision Log
 
