@@ -1,2 +1,2 @@
-﻿# Paper List
+# Paper List
 
