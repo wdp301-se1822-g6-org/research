@@ -1,4 +1,4 @@
-﻿# Evaluation Plan
+# Evaluation Plan
 
 ## 1. Evaluation Objectives
 
