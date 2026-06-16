@@ -35,9 +35,7 @@ Links: [[research_map|Research Map]] | [[weekly_reports/week_04|Week 04]]
 
 | Commit ID | Message | Author |
 |---|---|---|
-| [Commit ID] | docs: complete full research paper draft | Đinh Hoàng Kha |
-| [Commit ID] | docs: fix LaTeX table widths, running heads, and spacing | Đinh Hoàng Kha |
-| [Commit ID] | docs: add weekly report for week 5 | Đinh Hoàng Kha |
+| ea2fb42 | docs: add week 5 report and fix LaTeX formatting in main.tex | Đinh Hoàng Kha |
 
 ## Current Problems
 
