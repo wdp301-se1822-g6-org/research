@@ -1,2 +1,2 @@
-﻿# Related Work
+# Related Work
 

@@ -1,0 +1,445 @@
+\documentclass[runningheads]{llncs}
+%
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage[none]{hyphenat}
+%
+\begin{document}
+%
+\title{AI-Powered Customer Service for Improving Customer Loyalty in Smart Service Ecosystems}
+\titlerunning{AI-Powered Customer Service for Customer Loyalty}
+%
+\author{Dinh Hoang Kha\inst{1} \and
+Nguyen Quoc Doan\inst{1} \and
+Tran Huu Phuoc\inst{1} \and
+Nguyen Minh Chau\inst{1} \and
+Nguyen Tran Minh Hung\inst{1}}
+%
+\authorrunning{D. H. Kha et al.}
+%
+\institute{FPT University, Vietnam \\
+\email{\{khadhse193633, doannqse180466, phuochtse180579, chaunmse180582, hungntmse193002\}@fpt.edu.vn}}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+AI-powered customer service has become an important component of smart service ecosystems because customers increasingly expect fast, accurate, personalized, and convenient support. Prior studies show that AI chatbots and generative AI service tools can improve customer experience, satisfaction, trust, continuance intention, and e-brand loyalty through factors such as service quality, personalization, interaction quality, problem-solving ability, social presence, and perceived usefulness. However, the reviewed literature also highlights several risks, including privacy concerns, limited empathy, unreliable responses, and over-reliance on automation. Based on a review of thirteen related studies on AI chatbots, customer experience, customer retention, loyalty programs, multi-tier loyalty programs, and human-AI interaction, this study investigates how AI-powered customer service factors influence customer loyalty in smart service ecosystems. The proposed research model connects AI service quality, personalization, problem-solving ability, perceived empathy, and privacy risk with customer trust and satisfaction, which then affect customer retention, long-term engagement, and loyalty tier progression. This study does not aim to develop a new AI model from scratch; instead, it focuses on integrating an existing AI-powered chatbot and optional loyalty prediction module into a customer service platform. The expected contribution is a practical AI customer service framework that can support customer inquiries, personalize loyalty-related communication, improve service experience, and provide measurable indicators for evaluating loyalty outcomes. The study can help service providers understand which AI service factors are most important for strengthening customer relationships and designing smarter loyalty programs.
+
+\keywords{AI-powered customer service \and AI chatbot \and customer loyalty \and customer retention \and trust \and satisfaction \and loyalty tier progression \and smart service ecosystem.}
+\end{abstract}
+%
+%
+%
+\section{Introduction}
+
+Digital service platforms have changed the way customers interact with businesses. Customers now expect service providers to offer quick responses, accurate information, personalized recommendations, and convenient support across multiple digital channels. In this context, customer service is no longer only a support function. It has become an important part of customer experience and customer relationship management.
+
+Traditional customer service often depends heavily on human staff. This approach can create several problems, such as slow response time, inconsistent service quality, limited personalization, and high operating cost. AI-powered customer service, especially chatbot-based support, can help address these limitations by answering customer questions, explaining promotions, recommending suitable services, supporting booking or purchasing decisions, and collecting customer feedback. With the development of large language models and generative AI, customer service chatbots can also provide more natural and context-aware interactions.
+
+Customer loyalty is important because retaining existing customers is usually more cost-effective than acquiring new customers. In smart service ecosystems, customer loyalty may appear through repeated usage, continued engagement, positive word of mouth, reward redemption, and loyalty tier progression. However, businesses still need to understand which AI-powered service factors can actually support loyalty-related outcomes.
+
+Previous studies have examined AI chatbots from different perspectives, including user experience, satisfaction, trust, continued usage intention, e-brand loyalty, customer retention, perceived empathy, privacy risk, and human-AI interaction. Studies on loyalty programs have also shown that reward design, engagement mechanisms, tier benefits, and progress framing can influence customer behavior. However, the connection between AI-powered customer service and loyalty tier progression is still limited. Therefore, this research investigates how AI-powered customer service factors can influence customer trust, satisfaction, retention, long-term engagement, and movement across loyalty tiers in smart service ecosystems.
+
+\section{Problem Statement}
+
+In modern smart service ecosystems, customers expect service providers to respond quickly, accurately, and personally across digital channels. Traditional customer service is often limited by human staff availability, inconsistent response quality, long waiting time, and difficulty in providing personalized support for each customer. AI-powered customer service, especially chatbot-based support, can help service providers answer frequent questions, explain promotions, recommend services, support booking or purchasing decisions, and collect customer feedback more efficiently.
+
+However, improving service efficiency alone is not enough. Businesses also need to understand whether AI-powered customer service can strengthen customer loyalty, retention, long-term engagement, and movement across loyalty tiers. Previous studies have shown that chatbot service quality, personalization, interaction quality, trust, satisfaction, empathy, and problem-solving ability can affect customer experience and continued usage intention. At the same time, privacy risk, lack of empathy, and unreliable responses may reduce customer trust and satisfaction.
+
+Therefore, the main problem of this research is to identify which AI-powered customer service factors most strongly influence customer loyalty outcomes in smart service ecosystems. The study focuses on how an AI customer service chatbot, combined with loyalty-related communication and optional loyalty prediction, can support better customer experience and improve loyalty-related behavior.
+
+\section{Research Objectives}
+
+The main objective of this study is to investigate how AI-powered customer service can improve customer loyalty in smart service ecosystems.
+
+The specific objectives are:
+\begin{enumerate}
+\item To identify key AI-powered customer service factors that affect customer trust and satisfaction.
+\item To examine the roles of personalization, interaction quality, problem-solving ability, perceived empathy, and privacy risk in AI customer service.
+\item To analyze how trust and satisfaction influence customer retention, long-term engagement, and loyalty intention.
+\item To propose a system model that integrates an AI-powered customer service chatbot with loyalty-related communication.
+\item To define an evaluation plan using survey data, system metrics, and optional behavioral or simulated loyalty data.
+\end{enumerate}
+
+\section{Research Questions}
+
+\subsection{Main Research Question}
+What AI-powered customer service factors most influence customer loyalty, customer retention, long-term engagement, and loyalty tier progression in smart service ecosystems?
+
+\subsection{Sub Research Questions}
+\begin{itemize}
+\item \textbf{RQ1.} How do AI chatbot service quality, personalization, interaction quality, and problem-solving ability influence customer trust and satisfaction?
+\item \textbf{RQ2.} How do perceived empathy and privacy risk affect customer acceptance of AI-powered customer service?
+\item \textbf{RQ3.} How do customer trust and satisfaction influence loyalty outcomes such as retention, continued engagement, and loyalty intention?
+\item \textbf{RQ4.} How can AI-powered customer service be integrated with loyalty program communication to support customer movement across loyalty tiers?
+\item \textbf{RQ5.} What evaluation metrics can be used to measure the effectiveness of the proposed AI-powered customer service system?
+\end{itemize}
+
+\section{Literature Review}
+
+\subsection{AI Chatbots and Customer Experience}
+AI chatbots have become a common technology in customer-facing service environments. Cheng and Jiang~\cite{ref_paper01} showed that AI-driven chatbot gratifications can influence user satisfaction, loyalty, and continued use, while perceived privacy risk can negatively affect user experience. Adam et al.~\cite{ref_paper02} found that human-like chatbot design cues can increase perceived social presence and user compliance in customer service interactions. Ameen et al.~\cite{ref_paper03} examined AI-enabled customer experience and identified factors such as convenience, personalization, service quality, and trust.
+
+These studies suggest that AI-powered customer service should not be evaluated only by technical performance. It should also be evaluated through user-centered outcomes such as satisfaction, trust, perceived usefulness, and continued engagement.
+
+\subsection{AI Chatbots, Trust, Satisfaction, and Loyalty}
+Several studies directly connect chatbot service factors with loyalty-related outcomes. Li et al.~\cite{ref_paper04} examined whether AI chatbots can help retain customers and showed that chatbot affordances can improve customer experience and retention. Shahzad et al.~\cite{ref_paper05} found that AI-chatbot service quality can influence e-brand loyalty through chatbot user trust, user experience, and electronic word of mouth.
+
+These findings indicate that customer trust and satisfaction are important mediating factors. Customers are more likely to continue using a service and remain loyal when AI support is useful, reliable, personalized, and easy to interact with.
+
+\subsection{AI Methods and Generative AI Customer Service}
+Suhaili et al.~\cite{ref_paper06} reviewed service chatbot research and showed that chatbots have been applied across many domains, although many studies focus more on technical functions than broader customer loyalty outcomes. Ferraro et al.~\cite{ref_paper07} discussed generative AI-enabled customer service and highlighted important paradoxes, including the balance between personalization and privacy, automation and empathy, and efficiency and reliability. Gao et al.~\cite{ref_paper08} showed that chatbot problem-solving ability can influence expectation confirmation, satisfaction, trust, and continued usage intention.
+
+These studies support the use of an LLM-based chatbot or AI customer support module in the proposed system. They also show that problem-solving ability, reliability, and customer perception should be included in the evaluation.
+
+\subsection{Loyalty Programs and Loyalty Tier Progression}
+Loyalty program research provides the domain foundation for this study. Chen et al.~\cite{ref_paper09} reviewed three decades of loyalty program research and showed that loyalty programs can influence customer retention, repeat purchase, relationship strength, and engagement. Zeng et al.~\cite{ref_paper10} examined multi-tier loyalty programs and found that progress framing can influence customer motivation and response toward loyalty tier movement.
+
+These studies are important because they help define loyalty outcomes beyond general satisfaction. In this research, loyalty outcomes include customer retention, continued engagement, loyalty intention, reward-related behavior, and loyalty tier progression.
+
+\subsection{Perceived Empathy, Local Context, and Human-AI Interaction}
+Markovitch et al.~\cite{ref_paper11} compared chatbot and human service and emphasized the role of perceived empathy, especially when service outcomes are negative. Ngo et al.~\cite{ref_paper12} studied AI chatbot continuance intention among Generation Z in Vietnam and identified factors such as service quality, customization, interaction, enjoyment, problem-solving, satisfaction, and continuance intention. Chau et al.~\cite{ref_paper13} examined human-AI interaction in e-commerce and showed that AI-powered customer service can influence user experience, satisfaction, continued use, and decision-making.
+
+These supporting studies are useful for the proposed research because they add empathy, Vietnam-related evidence, and human-AI interaction perspectives to the model.
+
+\section{Research Gap}
+
+Existing studies have examined AI chatbots and AI-powered customer service from several important perspectives, including user experience, satisfaction, trust, social presence, service quality, continued usage intention, e-brand loyalty, customer retention, and human-AI interaction. Several studies show that chatbot quality, personalization, interaction quality, problem-solving ability, perceived usefulness, and perceived empathy can improve satisfaction, trust, and continued use. Other studies on loyalty programs show that reward design, customer engagement, communication strategy, progress framing, and tier-based benefits can influence customer retention and loyalty behavior.
+
+However, most existing studies still examine AI customer service and loyalty programs separately. AI chatbot studies often focus on satisfaction, continuance intention, compliance, or e-brand loyalty, while loyalty program studies often focus on reward mechanisms, progress framing, and customer behavior without considering AI-powered customer service interactions. There is limited research that directly connects AI customer service factors with loyalty tier progression, long-term engagement, and measurable loyalty behavior in a smart service ecosystem.
+
+This creates a research gap for the group: current literature does not sufficiently explain how AI-powered customer service can support customers not only in solving immediate service problems but also in developing trust, satisfaction, retention, and progression toward higher loyalty tiers. To address this gap, the proposed study integrates insights from thirteen related papers and develops a research model linking AI service quality, personalization, problem-solving ability, perceived empathy, and privacy risk with trust, satisfaction, customer retention, long-term engagement, and loyalty tier progression.
+
+\section{Proposed Research Model}
+
+The proposed research model contains four groups of variables, as outlined in Table~\ref{tab:variables}.
+
+\begin{table}
+\caption{Proposed research model variables and their expected roles.}\label{tab:variables}
+\centering
+\begin{tabular}{|p{3.5cm}|p{5cm}|p{3.5cm}|}
+\hline
+\textbf{Variable Group} & \textbf{Variables} & \textbf{Expected Role} \\
+\hline
+AI customer service factors & Service quality, personalization, interaction quality, problem-solving ability, response usefulness, social presence & Independent variables \\
+\hline
+Risk and perception factors & Privacy risk, perceived empathy, reliability concern & Moderating / influencing factors \\
+\hline
+Mediating factors & Customer trust, customer satisfaction, customer experience & Mediating variables \\
+\hline
+Loyalty outcomes & Customer loyalty, retention, continued engagement, loyalty intention, loyalty tier progression & Dependent variables \\
+\hline
+\end{tabular}
+\end{table}
+
+The expected relationship is that AI customer service factors positively influence trust and satisfaction. Trust and satisfaction then influence loyalty-related outcomes. Privacy risk is expected to negatively affect trust and satisfaction, while perceived empathy is expected to strengthen customer acceptance of AI-powered customer service.
+
+\section{Proposed System}
+
+\subsection{System Overview}
+The proposed system is an AI-powered customer service platform for a smart service ecosystem. The system supports customer inquiries, provides service recommendations, explains promotions and loyalty benefits, collects customer feedback, and optionally predicts customer loyalty or retention risk based on customer behavior.
+
+\subsection{Main Users}
+The main users include:
+\begin{enumerate}
+\item Customers who use online services or booking platforms.
+\item Service staff who monitor customer support activities.
+\item Business managers who want to understand customer satisfaction and loyalty.
+\item Administrators who manage service information, FAQ content, promotions, and loyalty rules.
+\end{enumerate}
+
+\subsection{Main Features}
+The platform consists of several core features, described in Table~\ref{tab:features}.
+
+\begin{table}
+\caption{Main features of the proposed AI-powered customer service platform.}\label{tab:features}
+\centering
+\begin{tabular}{|p{4cm}|p{7.5cm}|}
+\hline
+\textbf{Feature} & \textbf{Description} \\
+\hline
+Customer account management & Allows customers to register, log in, and view basic profile information \\
+\hline
+AI customer service chatbot & Answers customer questions and provides service support \\
+\hline
+FAQ and knowledge base support & Uses stored service information to answer common questions \\
+\hline
+Promotion and loyalty explanation & Explains rewards, vouchers, points, and loyalty tier benefits \\
+\hline
+Personalized recommendation & Suggests suitable services, promotions, or loyalty actions \\
+\hline
+Feedback collection & Collects satisfaction, trust, and perceived usefulness ratings \\
+\hline
+Loyalty prediction module & Optionally predicts retention risk or loyalty tier progression \\
+\hline
+Dashboard & Displays chatbot usage, satisfaction scores, and loyalty indicators \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{System Architecture}
+The proposed architecture includes the components listed in Table~\ref{tab:architecture}.
+
+\begin{table}
+\caption{System architectural components and descriptions.}\label{tab:architecture}
+\centering
+\begin{tabular}{|p{4cm}|p{7.5cm}|}
+\hline
+\textbf{Component} & \textbf{Description} \\
+\hline
+Frontend & Provides customer interface, chatbot window, feedback forms, and dashboard \\
+\hline
+Backend API & Handles user requests, authentication, business logic, and communication between components \\
+\hline
+Database & Stores user profiles, service information, chatbot logs, feedback, loyalty points, and loyalty tiers \\
+\hline
+AI Service & Runs the chatbot model or calls an external LLM API \\
+\hline
+Knowledge Base & Stores FAQ, promotion rules, service descriptions, and loyalty program information \\
+\hline
+Loyalty Prediction Module & Uses behavioral and survey data to estimate retention or loyalty tier movement \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Data Flow}
+The data flow of the proposed system is as follows:
+\begin{enumerate}
+\item A customer submits a question or support request through the frontend.
+\item The backend receives the request and checks relevant customer and service information.
+\item The AI service generates a response using the chatbot model and knowledge base.
+\item The response is returned to the customer through the chatbot interface.
+\item The system records the interaction log, response time, and feedback rating.
+\item If loyalty prediction is enabled, customer behavior and feedback data are processed by the prediction module.
+\item The dashboard displays service quality indicators, satisfaction scores, and loyalty-related insights.
+\end{enumerate}
+
+\section{AI Model Integration}
+
+This study does not aim to train a completely new AI model from scratch. Instead, it focuses on integrating existing AI models into a customer service system.
+
+\subsection{Chatbot Model}
+The chatbot can be implemented using an existing large language model API or an open-source language model. The model receives customer questions and relevant context from the knowledge base, then generates a natural language response.
+
+The chatbot input may include:
+\begin{itemize}
+\item Customer question
+\item Customer profile context
+\item FAQ information
+\item Service descriptions
+\item Promotion rules
+\item Loyalty program rules
+\end{itemize}
+
+The chatbot output may include:
+\begin{itemize}
+\item Answer to customer question
+\item Suggested service
+\item Promotion or loyalty benefit explanation
+\item Recommended next action
+\end{itemize}
+
+\subsection{Loyalty Prediction Model}
+The optional loyalty prediction module can use machine learning models such as Logistic Regression, Decision Tree, Random Forest, or XGBoost. The model can predict whether a customer is likely to continue using the service, become inactive, or move to a higher loyalty tier.
+
+Possible input features include:
+\begin{itemize}
+\item Number of service interactions
+\item Recent purchase or booking frequency
+\item Loyalty points
+\item Current loyalty tier
+\item Chatbot usage frequency
+\item Satisfaction score
+\item Trust score
+\item Complaint frequency
+\item Response usefulness rating
+\end{itemize}
+
+Possible outputs include:
+\begin{itemize}
+\item Retention probability
+\item Loyalty risk level
+\item Recommended loyalty action
+\item Predicted tier progression
+\end{itemize}
+
+\section{Methodology}
+
+The study uses a design-oriented and evaluation-based methodology. First, the group reviews related papers to identify key variables and research gaps. Second, the group designs a proposed AI-powered customer service system. Third, the group defines evaluation metrics to measure chatbot quality, user perception, and loyalty-related outcomes.
+
+\subsection{Research Design}
+The research design includes three main phases:
+\begin{enumerate}
+\item Literature analysis: Review thirteen papers and identify key constructs related to AI-powered customer service and loyalty.
+\item System design: Propose an AI customer service platform with chatbot support, loyalty communication, and optional loyalty prediction.
+\item Evaluation plan: Define survey items, system metrics, baseline comparison, and expected outcomes.
+\end{enumerate}
+\vspace{-0.3cm}
+
+\subsection{Data Collection Plan}
+The study can use two types of data, as described in Table~\ref{tab:datatypes}.
+
+\begin{table}
+\caption{Data types for data collection plan.}\label{tab:datatypes}
+\centering
+\begin{tabular}{|p{4cm}|p{7.5cm}|}
+\hline
+\textbf{Data Type} & \textbf{Description} \\
+\hline
+Survey data & User responses about perceived service quality, personalization, trust, satisfaction, privacy risk, empathy, continuance intention, and loyalty intention \\
+\hline
+Behavioral / simulated data & Customer interaction logs, chatbot usage frequency, service usage history, loyalty points, loyalty tier, and reward redemption \\
+\hline
+\end{tabular}
+\end{table}
+
+If real customer data is not available, the group can use simulated customer behavior logs for prototype evaluation. Survey data can be collected from students or users who interact with the prototype chatbot.
+
+\subsection{Survey Constructs}
+The survey measures the constructs listed in Table~\ref{tab:survey}.
+
+\begin{table}
+\caption{Survey constructs and example measurements.}\label{tab:survey}
+\centering
+\begin{tabular}{|p{4cm}|p{7.5cm}|}
+\hline
+\textbf{Construct} & \textbf{Example Measurement} \\
+\hline
+AI service quality & The chatbot provides useful and accurate support \\
+\hline
+Personalization & The chatbot gives responses suitable for my needs \\
+\hline
+Problem-solving ability & The chatbot helps me solve my service problem \\
+\hline
+Perceived empathy & The chatbot response feels polite and considerate \\
+\hline
+Privacy risk & I am concerned about how my data is used \\
+\hline
+Trust & I trust the chatbot-supported service \\
+\hline
+Satisfaction & I am satisfied with the AI customer service experience \\
+\hline
+Continuance intention & I intend to continue using this AI customer service \\
+\hline
+Loyalty intention & I am likely to keep using this service provider \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Evaluation Plan}
+
+\subsection{Baseline}
+The proposed AI-powered customer service system can be compared with:
+\begin{enumerate}
+\item Traditional customer service without AI support.
+\item A rule-based chatbot with fixed answers.
+\item A non-personalized FAQ search system.
+\end{enumerate}
+
+\subsection{Evaluation Metrics}
+The system will be evaluated based on the metrics detailed in Table~\ref{tab:metrics}.
+
+\begin{table}
+\caption{Evaluation metrics and explanation.}\label{tab:metrics}
+\centering
+\begin{tabular}{|p{2.5cm}|p{4.5cm}|p{4.5cm}|}
+\hline
+\textbf{Metric} & \textbf{Meaning} & \textbf{Why Used} \\
+\hline
+Response time & Time needed to answer a customer question & Measures service efficiency \\
+\hline
+Answer usefulness & User rating of chatbot answer usefulness & Measures perceived support quality \\
+\hline
+User satisfaction & Survey score after interaction & Measures customer experience \\
+\hline
+Trust score & User trust toward AI-supported service & Measures acceptance of AI service \\
+\hline
+Continuance intention & Intention to continue using the chatbot & Measures future usage intention \\
+\hline
+Loyalty intention & Intention to remain with the service provider & Measures loyalty outcome \\
+\hline
+Accuracy & Correct prediction ratio for loyalty model & Measures prediction performance \\
+\hline
+Precision & Correct positive predictions among predicted positives & Useful for identifying likely loyal or at-risk customers \\
+\hline
+Recall & Correctly detected positive cases among actual positives & Useful for finding at-risk customers \\
+\hline
+F1-score & Balance between precision and recall & Measures classification quality \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Evaluation Procedure}
+The evaluation follows these steps:
+\begin{enumerate}
+\item Prepare a set of customer service scenarios and loyalty-related questions.
+\item Let users interact with the AI chatbot prototype.
+\item Collect chatbot logs, response time, and user feedback.
+\item Ask users to complete a survey about service quality, personalization, trust, satisfaction, privacy risk, empathy, and loyalty intention.
+\item Compare the AI chatbot with a rule-based chatbot or FAQ baseline.
+\item If using a loyalty prediction model, evaluate prediction performance using Accuracy, Precision, Recall, and F1-score.
+\end{enumerate}
+
+\section{Expected Results}
+
+The study expects that AI-powered customer service will improve customer experience compared with traditional or rule-based support. The chatbot is expected to provide faster responses, more personalized support, and better explanation of loyalty benefits. The research model expects that service quality, personalization, interaction quality, and problem-solving ability will positively influence customer trust and satisfaction. Trust and satisfaction are expected to positively influence retention, continued engagement, and loyalty intention.
+
+The study also expects that privacy risk and low perceived empathy may reduce trust and satisfaction. Therefore, the proposed system should include careful data handling, clear communication, polite responses, and escalation to human staff when the chatbot cannot solve a customer issue.
+
+\section{Discussion}
+
+This research contributes to both AI customer service research and loyalty program research. From the AI service perspective, it emphasizes that chatbot effectiveness should be measured not only by speed or answer accuracy but also by customer trust, satisfaction, perceived empathy, and loyalty intention. From the loyalty program perspective, it extends the discussion from reward design and progress framing to AI-powered communication and customer support.
+
+The proposed system can help service providers understand how customers interact with AI support and how those interactions may influence loyalty behavior. For example, a chatbot can explain how many points a customer needs to reach the next tier, recommend suitable services or promotions, and encourage continued engagement through personalized communication.
+
+However, the study also has limitations. If real customer behavior data is unavailable, simulated data may not fully represent real loyalty behavior. Survey-based intention may not always match actual future behavior. In addition, AI chatbot responses may vary depending on the model, knowledge base quality, and prompt design.
+
+\section{Conclusion}
+
+This research proposes an AI-powered customer service approach for improving customer loyalty in smart service ecosystems. Based on thirteen related papers, the study identifies important factors such as AI service quality, personalization, interaction quality, problem-solving ability, perceived empathy, privacy risk, trust, satisfaction, retention, and loyalty tier progression. The main research gap is that existing studies often examine AI chatbots and loyalty programs separately, while limited research directly connects AI-powered customer service with loyalty tier movement and long-term engagement.
+
+The proposed system integrates an AI customer service chatbot with loyalty-related communication and optional loyalty prediction. The expected contribution is a practical framework for supporting customer inquiries, improving customer experience, and measuring loyalty-related outcomes. Future work should implement the prototype, collect user survey data, evaluate chatbot performance, and test whether AI-powered customer service can improve customer retention and loyalty tier progression in real service contexts.
+
+\begin{thebibliography}{13}
+\bibitem{ref_paper01}
+Cheng, Y., Jiang, H.: How Do AI-driven Chatbots Impact User Experience? Examining Gratifications, Perceived Privacy Risk, Satisfaction, Loyalty, and Continued Use. Journal of Broadcasting \& Electronic Media \textbf{64}(4), 592--614 (2020). \url{https://doi.org/10.1080/08838151.2020.1834296}
+
+\bibitem{ref_paper02}
+Adam, M., Wessel, M., Benlian, A.: AI-based chatbots in customer service and their effects on user compliance. Electronic Markets \textbf{31}(2), 427--445 (2021). \url{https://doi.org/10.1007/s12525-020-00414-7}
+
+\bibitem{ref_paper03}
+Ameen, N., Tarhini, A., Reppel, A., Anand, A.: Customer experiences in the age of artificial intelligence. Computers in Human Behavior \textbf{114}, 106548 (2021). \url{https://doi.org/10.1016/j.chb.2020.106548}
+
+\bibitem{ref_paper04}
+Li, C.-Y., Fang, Y.-H., Chiang, Y.-H.: Can AI chatbots help retain customers? An integrative perspective using affordance theory and service-domain logic. Technological Forecasting and Social Change \textbf{197}, 122921 (2023). \url{https://doi.org/10.1016/j.techfore.2023.122921}
+
+\bibitem{ref_paper05}
+Shahzad, M. F., Xu, S., An, X., Javed, I.: Assessing the impact of AI-chatbot service quality on user e-brand loyalty through chatbot user trust, experience and electronic word of mouth. Journal of Retailing and Consumer Services \textbf{80}, 103940 (2024). \url{https://doi.org/10.1016/j.jretconser.2024.103940}
+
+\bibitem{ref_paper06}
+Suhaili, S. M., Salim, N., Jambli, M. N.: Service chatbots: A systematic review. Expert Systems with Applications \textbf{184}, 115461 (2021). \url{https://doi.org/10.1016/j.eswa.2021.115461}
+
+\bibitem{ref_paper07}
+Ferraro, C., Demsar, V., Sands, S., Restrepo, M., Campbell, C.: The paradoxes of generative AI-enabled customer service: A guide for managers. Business Horizons \textbf{67}(4), 435--447 (2024). \url{https://doi.org/10.1016/j.bushor.2024.04.004}
+
+\bibitem{ref_paper08}
+Gao, J., Opute, A. P., Jawad, C., Zhan, M.: The influence of artificial intelligence chatbot problem solving on customers' continued usage intention in e-commerce platforms: an expectation-confirmation model approach. Journal of Business Research \textbf{188}, 115423 (2025). \url{https://doi.org/10.1016/j.jbusres.2025.115423}
+
+\bibitem{ref_paper09}
+Chen, Y., Mandler, T., Meyer-Waarden, L.: Three decades of research on loyalty programs: A literature review and future research agenda. Journal of Business Research \textbf{124}, 179--197 (2021). \url{https://doi.org/10.1016/j.jbusres.2020.10.057}
+
+\bibitem{ref_paper10}
+Zeng, K. J., Yu, I. Y., Yang, M. X., Chan, H.: Communication strategies for multi-tier loyalty programs: The role of progress framing. Tourism Management \textbf{89}, 104478 (2022). \url{https://doi.org/10.1016/j.tourman.2021.104478}
+
+\bibitem{ref_paper11}
+Markovitch, D. G., Stough, R. A., Huang, D.: Consumer reactions to chatbot versus human service: An investigation in the role of outcome valence and perceived empathy. Journal of Retailing and Consumer Services \textbf{80}, 103921 (2024). \url{https://doi.org/10.1016/j.jretconser.2024.103921}
+
+\bibitem{ref_paper12}
+Ngo, T. T. A., Phan, T. Y. N., Nguyen, T. K., Le, N. B. T., Nguyen, T. A. N., Le, T. T. D.: Understanding continuance intention toward the use of AI chatbots in customer service among Generation Z in Vietnam. Acta Psychologica \textbf{253}, 105235 (2025). \url{https://doi.org/10.1016/j.actpsy.2025.105235}
+
+\bibitem{ref_paper13}
+Chau, H. K. L., Ngo, T. T. A., Bui, C. T., Tran, N. P. N.: Human-AI interaction in E-Commerce: The impact of AI-powered customer service on user experience and decision-making. Computers in Human Behavior Reports \textbf{17}, 100710 (2025). \url{https://doi.org/10.1016/j.chbr.2025.100710}
+\end{thebibliography}
+
+\end{document}
