@@ -21,6 +21,15 @@
   - Nguyễn Minh Châu (SE180582)
   - Nguyễn Trần Minh Hưng (SE193002)
 
+## Lecturer Information and Response
+
+- Lecturer: Trương Long
+- Email: longt5@fe.edu.vn
+
+### Lecturer Response
+
+[Add the lecturer's response or feedback here.]
+
 ## Abstract
 
 AI-powered customer service has become an important component of smart service ecosystems because customers increasingly expect fast, accurate, personalized, and convenient support. Prior studies show that AI chatbots and generative AI service tools can improve customer experience, satisfaction, trust, continuance intention, and e-brand loyalty through factors such as service quality, personalization, interaction quality, problem-solving ability, social presence, and perceived usefulness. However, the reviewed literature also highlights several risks, including privacy concerns, limited empathy, unreliable responses, and over-reliance on automation. Based on a review of thirteen related studies on AI chatbots, customer experience, customer retention, loyalty programs, multi-tier loyalty programs, and human-AI interaction, this study investigates how AI-powered customer service factors influence customer loyalty in smart service ecosystems. The proposed research model connects AI service quality, personalization, problem-solving ability, perceived empathy, and privacy risk with customer trust and satisfaction, which then affect customer retention, long-term engagement, and loyalty tier progression. This study does not aim to develop a new AI model from scratch; instead, it focuses on integrating an existing AI-powered chatbot and optional loyalty prediction module into a customer service platform. The expected contribution is a practical AI customer service framework that can support customer inquiries, personalize loyalty-related communication, improve service experience, and provide measurable indicators for evaluating loyalty outcomes. The study can help service providers understand which AI service factors are most important for strengthening customer relationships and designing smarter loyalty programs.
