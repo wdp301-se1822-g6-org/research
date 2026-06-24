@@ -1,0 +1,9 @@
+,Service Quality,Personalization,Problem Solving,Perceived Empathy,Privacy Risk,Trust,Satisfaction,Loyalty Intention
+Service Quality,1.0,0.276,0.168,0.003,-0.038,0.397,0.376,0.424
+Personalization,0.276,1.0,0.179,0.087,-0.144,0.533,0.432,0.457
+Problem Solving,0.168,0.179,1.0,0.244,-0.103,0.551,0.504,0.455
+Perceived Empathy,0.003,0.087,0.244,1.0,-0.165,0.418,0.167,0.413
+Privacy Risk,-0.038,-0.144,-0.103,-0.165,1.0,-0.269,-0.388,-0.22
+Trust,0.397,0.533,0.551,0.418,-0.269,1.0,0.383,0.782
+Satisfaction,0.376,0.432,0.504,0.167,-0.388,0.383,1.0,0.473
+Loyalty Intention,0.424,0.457,0.455,0.413,-0.22,0.782,0.473,1.0

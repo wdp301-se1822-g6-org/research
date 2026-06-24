@@ -1,0 +1,212 @@
+{
+  "1": {
+    "answer": "Trung tâm dịch vụ mở cửa từ 8:00 đến 22:00 hàng ngày, kể cả cuối tuần.",
+    "used_kb_id": "kb_hours",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 2.7373
+  },
+  "2": {
+    "answer": "Trung tâm dịch vụ mở cửa từ 8:00 đến 22:00 hàng ngày, kể cả cuối tuần.",
+    "used_kb_id": "kb_hours",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 21.8953
+  },
+  "3": {
+    "answer": "Bạn có thể đổi hoặc hủy dịch vụ miễn phí trước 24 giờ so với lịch hẹn.",
+    "used_kb_id": "kb_return",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 7.6473
+  },
+  "4": {
+    "answer": "Bạn có thể đổi hoặc hủy dịch vụ miễn phí trước 24 giờ so với lịch hẹn.",
+    "used_kb_id": "kb_return",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 3.3375
+  },
+  "5": {
+    "answer": "Chào bạn, chúng tôi có hỗ trợ thanh toán qua MoMo ạ.",
+    "used_kb_id": "kb_payment",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 8.4878
+  },
+  "6": {
+    "answer": "Bạn có thể đặt lịch ngay trong ứng dụng ở mục 'Đặt dịch vụ', chọn thời gian và xác nhận.",
+    "used_kb_id": "kb_booking",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 1.7249
+  },
+  "7": {
+    "answer": "Bạn có thể đặt lại mật khẩu bằng cách chọn \"Quên mật khẩu\" trên màn hình đăng nhập.",
+    "used_kb_id": "kb_account",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 3.1506
+  },
+  "8": {
+    "answer": "Tiền hoàn sẽ về tài khoản của quý khách trong vòng 3–5 ngày làm việc.",
+    "used_kb_id": "kb_refund_time",
+    "escalate": false,
+    "personalized": true,
+    "response_time_s": 26.0996
+  },
+  "9": {
+    "answer": "Bạn có thể liên hệ hotline 1900-1234 hoặc email support@smartservice.vn.",
+    "used_kb_id": "kb_contact",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 10.1499
+  },
+  "10": {
+    "answer": "Dữ liệu của bạn được mã hóa và chỉ dùng để cải thiện chất lượng dịch vụ.",
+    "used_kb_id": "kb_privacy",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 24.4305
+  },
+  "11": {
+    "answer": "Bạn tích điểm thưởng bằng cách chi tiêu. Cứ mỗi 10.000đ chi tiêu, bạn sẽ nhận được 1 điểm thưởng.",
+    "used_kb_id": "kb_points",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 3.6266
+  },
+  "12": {
+    "answer": "Hệ thống của chúng tôi có 4 hạng thành viên: Bronze, Silver (500 điểm), Gold (1500 điểm), và Platinum (3000 điểm).",
+    "used_kb_id": "kb_tier",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 3.3196
+  },
+  "13": {
+    "answer": "Để đạt hạng Gold, bạn cần tích lũy 1500 điểm thưởng.",
+    "used_kb_id": "kb_tier_gold",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 4.4154
+  },
+  "14": {
+    "answer": "Để đạt hạng Platinum, bạn cần tích lũy 3000 điểm thưởng.",
+    "used_kb_id": "kb_tier",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 11.0389
+  },
+  "15": {
+    "answer": "Chào bạn, bạn có thể kiểm tra các voucher hiện có trong mục 'Ưu đãi' trên ứng dụng. Hạng thành viên càng cao thì ưu đãi càng lớn ạ.",
+    "used_kb_id": "kb_voucher",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 6.8931
+  },
+  "16": {
+    "answer": "Điểm thưởng của bạn có thể dùng để đổi quà và giúp bạn lên hạng thành viên.",
+    "used_kb_id": "kb_points",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 10.9162
+  },
+  "17": {
+    "answer": "Hạng càng cao thì ưu đãi càng lớn, được thể hiện qua các voucher hiện có trong mục 'Ưu đãi'.",
+    "used_kb_id": "kb_voucher",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 4.9548
+  },
+  "18": {
+    "answer": "Chào bạn, mỗi 10.000đ chi tiêu bạn sẽ nhận được 1 điểm thưởng.",
+    "used_kb_id": "kb_points",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 3.4238
+  },
+  "19": {
+    "answer": "Chào bạn, để đạt hạng Gold, bạn cần 1500 điểm. Hiện bạn đang có 1200 điểm, vậy bạn còn thiếu 300 điểm nữa nhé.",
+    "used_kb_id": "kb_tier_gold",
+    "escalate": false,
+    "personalized": true,
+    "response_time_s": 3.8164
+  },
+  "20": {
+    "answer": "Chào bạn, hạng thành viên của bạn càng cao thì ưu đãi càng lớn. Bạn vui lòng kiểm tra mục 'Ưu đãi' trong ứng dụng để xem các voucher hiện có nhé.",
+    "used_kb_id": "kb_voucher",
+    "escalate": false,
+    "personalized": true,
+    "response_time_s": 3.6406
+  },
+  "21": {
+    "answer": "Chào bạn, hạng thành viên của bạn sẽ quyết định mức ưu đãi bạn nhận được. Hạng càng cao, ưu đãi càng lớn. Bạn có thể xem chi tiết các voucher hiện có trong mục 'Ưu đãi' trên ứng dụng.",
+    "used_kb_id": "kb_voucher",
+    "escalate": false,
+    "personalized": true,
+    "response_time_s": 20.7281
+  },
+  "22": {
+    "answer": "Chào bạn, bạn có thể dùng điểm thưởng để đổi quà. Điểm thưởng của bạn cũng giúp bạn lên hạng thành viên.",
+    "used_kb_id": "kb_points",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 7.2507
+  },
+  "23": {
+    "answer": "Để biết khi nào bạn lên hạng tiếp theo, vui lòng cung cấp thêm thông tin về mức chi tiêu hiện tại của bạn.",
+    "used_kb_id": null,
+    "escalate": false,
+    "personalized": true,
+    "response_time_s": 2.4102
+  },
+  "24": {
+    "answer": "Chào bạn, để biết gói dịch vụ nào phù hợp, bạn vui lòng cung cấp thêm thông tin về nhu cầu của mình nhé.",
+    "used_kb_id": null,
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 15.7784
+  },
+  "25": {
+    "answer": "Chúng tôi rất tiếc khi trải nghiệm của bạn chưa được tốt. Để chúng tôi có thể hỗ trợ bạn tốt nhất, vui lòng cung cấp thêm thông tin chi tiết về sự việc.",
+    "used_kb_id": null,
+    "escalate": true,
+    "personalized": false,
+    "response_time_s": 7.5296
+  },
+  "26": {
+    "answer": "Tôi rất tiếc khi nghe về vấn đề bạn gặp phải. Để tôi kiểm tra lại giao dịch này cho bạn.",
+    "used_kb_id": null,
+    "escalate": true,
+    "personalized": true,
+    "response_time_s": 10.7083
+  },
+  "27": {
+    "answer": "Chúng tôi rất tiếc khi nghe về sự cố này. Để giải quyết vấn đề bồi thường, chúng tôi cần chuyển thông tin của bạn cho bộ phận hỗ trợ khách hàng chuyên trách. Họ sẽ liên hệ với bạn sớm nhất có thể.",
+    "used_kb_id": null,
+    "escalate": true,
+    "personalized": false,
+    "response_time_s": 3.9371
+  },
+  "28": {
+    "answer": "Tôi rất tiếc khi nghe về trải nghiệm không hài lòng của quý khách. Để giải quyết vấn đề này một cách tốt nhất, tôi xin phép chuyển yêu cầu của quý khách đến bộ phận chăm sóc khách hàng cấp cao hơn để được hỗ trợ kịp thời ạ.",
+    "used_kb_id": null,
+    "escalate": true,
+    "personalized": false,
+    "response_time_s": 3.7071
+  },
+  "29": {
+    "answer": "Chúng tôi rất tiếc khi nghe về vấn đề tài khoản của bạn. Để bảo vệ thông tin và tài khoản của bạn, chúng tôi sẽ chuyển vấn đề này cho bộ phận hỗ trợ chuyên trách để xử lý gấp.",
+    "used_kb_id": null,
+    "escalate": true,
+    "personalized": false,
+    "response_time_s": 10.8112
+  },
+  "30": {
+    "answer": "Chúng tôi rất tiếc khi nghe về vấn đề bạn gặp phải. Để giải quyết vấn đề này nhanh chóng, chúng tôi sẽ chuyển yêu cầu của bạn cho bộ phận hỗ trợ chuyên trách.",
+    "used_kb_id": null,
+    "escalate": true,
+    "personalized": false,
+    "response_time_s": 4.0855
+  }
+}

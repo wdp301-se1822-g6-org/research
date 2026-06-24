@@ -1,0 +1,16 @@
+Model,Predictor,Beta,SE,t,p,R2,adj_R2
+Trust ~ SQ+PE+PS+EM+PR,(Intercept),0.481,0.517,0.93,0.3574,0.636,0.596
+Trust ~ SQ+PE+PS+EM+PR,Service Quality,0.202,0.082,2.45,0.018,0.636,0.596
+Trust ~ SQ+PE+PS+EM+PR,Personalization,0.291,0.076,3.84,0.0004,0.636,0.596
+Trust ~ SQ+PE+PS+EM+PR,Problem Solving,0.291,0.075,3.91,0.0003,0.636,0.596
+Trust ~ SQ+PE+PS+EM+PR,Perceived Empathy,0.198,0.067,2.97,0.0047,0.636,0.596
+Trust ~ SQ+PE+PS+EM+PR,Privacy Risk,-0.102,0.074,-1.37,0.1777,0.636,0.596
+Satisfaction ~ SQ+PE+PS+EM+PR,(Intercept),1.646,0.67,2.46,0.0178,0.509,0.456
+Satisfaction ~ SQ+PE+PS+EM+PR,Service Quality,0.224,0.106,2.1,0.0408,0.509,0.456
+Satisfaction ~ SQ+PE+PS+EM+PR,Personalization,0.229,0.098,2.34,0.0239,0.509,0.456
+Satisfaction ~ SQ+PE+PS+EM+PR,Problem Solving,0.344,0.096,3.56,0.0009,0.509,0.456
+Satisfaction ~ SQ+PE+PS+EM+PR,Perceived Empathy,-0.001,0.086,-0.01,0.994,0.509,0.456
+Satisfaction ~ SQ+PE+PS+EM+PR,Privacy Risk,-0.275,0.096,-2.86,0.0064,0.509,0.456
+Loyalty ~ Trust+Satisfaction,(Intercept),-0.028,0.388,-0.07,0.9434,0.647,0.633
+Loyalty ~ Trust+Satisfaction,Trust,0.766,0.1,7.67,0.0,0.647,0.633
+Loyalty ~ Trust+Satisfaction,Satisfaction,0.198,0.09,2.21,0.032,0.647,0.633

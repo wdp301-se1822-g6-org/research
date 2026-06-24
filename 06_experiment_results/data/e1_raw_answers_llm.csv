@@ -1,0 +1,31 @@
+scenario_id,text,answer,used_kb_id,escalate,personalized
+1,Trung tâm mở cửa lúc mấy giờ?,"Trung tâm dịch vụ mở cửa từ 8:00 đến 22:00 hàng ngày, kể cả cuối tuần.",kb_hours,False,False
+2,Mấy giờ thì đóng cửa vậy?,"Trung tâm dịch vụ mở cửa từ 8:00 đến 22:00 hàng ngày, kể cả cuối tuần.",kb_hours,False,False
+3,Tôi muốn đổi lịch hẹn thì có mất phí không?,Bạn có thể đổi hoặc hủy dịch vụ miễn phí trước 24 giờ so với lịch hẹn.,kb_return,False,False
+4,Chính sách hủy dịch vụ như thế nào?,Bạn có thể đổi hoặc hủy dịch vụ miễn phí trước 24 giờ so với lịch hẹn.,kb_return,False,False
+5,Bên mình thanh toán bằng MoMo được không?,"Chào bạn, chúng tôi có hỗ trợ thanh toán qua MoMo ạ.",kb_payment,False,False
+6,Tôi đặt lịch dịch vụ ở đâu trong app?,"Bạn có thể đặt lịch ngay trong ứng dụng ở mục 'Đặt dịch vụ', chọn thời gian và xác nhận.",kb_booking,False,False
+7,Quên mật khẩu thì làm sao đăng nhập lại?,"Bạn có thể đặt lại mật khẩu bằng cách chọn ""Quên mật khẩu"" trên màn hình đăng nhập.",kb_account,False,False
+8,Khi nào tôi nhận lại được tiền hoàn?,Tiền hoàn sẽ về tài khoản của quý khách trong vòng 3–5 ngày làm việc.,kb_refund_time,False,True
+9,Cho mình xin số hotline liên hệ?,Bạn có thể liên hệ hotline 1900-1234 hoặc email support@smartservice.vn.,kb_contact,False,False
+10,Dữ liệu cá nhân của tôi có được bảo mật không?,Dữ liệu của bạn được mã hóa và chỉ dùng để cải thiện chất lượng dịch vụ.,kb_privacy,False,False
+11,Tôi tích điểm thưởng bằng cách nào?,"Bạn tích điểm thưởng bằng cách chi tiêu. Cứ mỗi 10.000đ chi tiêu, bạn sẽ nhận được 1 điểm thưởng.",kb_points,False,False
+12,Hệ thống có mấy hạng thành viên?,"Hệ thống của chúng tôi có 4 hạng thành viên: Bronze, Silver (500 điểm), Gold (1500 điểm), và Platinum (3000 điểm).",kb_tier,False,False
+13,Tôi cần bao nhiêu điểm để lên hạng Gold?,"Để đạt hạng Gold, bạn cần tích lũy 1500 điểm thưởng.",kb_tier_gold,False,False
+14,Lên hạng Platinum cần bao nhiêu điểm?,"Để đạt hạng Platinum, bạn cần tích lũy 3000 điểm thưởng.",kb_tier,False,False
+15,Có voucher giảm giá nào đang áp dụng không?,"Chào bạn, bạn có thể kiểm tra các voucher hiện có trong mục 'Ưu đãi' trên ứng dụng. Hạng thành viên càng cao thì ưu đãi càng lớn ạ.",kb_voucher,False,False
+16,Điểm thưởng dùng để làm gì?,Điểm thưởng của bạn có thể dùng để đổi quà và giúp bạn lên hạng thành viên.,kb_points,False,False
+17,Hạng cao hơn thì được ưu đãi gì?,"Hạng càng cao thì ưu đãi càng lớn, được thể hiện qua các voucher hiện có trong mục 'Ưu đãi'.",kb_voucher,False,False
+18,1 điểm tương ứng bao nhiêu tiền chi tiêu?,"Chào bạn, mỗi 10.000đ chi tiêu bạn sẽ nhận được 1 điểm thưởng.",kb_points,False,False
+19,"Tôi đang có 1200 điểm, còn thiếu bao nhiêu để lên Gold?","Chào bạn, để đạt hạng Gold, bạn cần 1500 điểm. Hiện bạn đang có 1200 điểm, vậy bạn còn thiếu 300 điểm nữa nhé.",kb_tier_gold,False,True
+20,"Tôi vừa đặt dịch vụ spa, có ưu đãi nào cho tôi không?","Chào bạn, hạng thành viên của bạn càng cao thì ưu đãi càng lớn. Bạn vui lòng kiểm tra mục 'Ưu đãi' trong ứng dụng để xem các voucher hiện có nhé.",kb_voucher,False,True
+21,Hạng hiện tại của tôi có được giảm giá thêm không?,"Chào bạn, hạng thành viên của bạn sẽ quyết định mức ưu đãi bạn nhận được. Hạng càng cao, ưu đãi càng lớn. Bạn có thể xem chi tiết các voucher hiện có trong mục 'Ưu đãi' trên ứng dụng.",kb_voucher,False,True
+22,Tôi nên dùng điểm của mình để đổi gì thì lợi nhất?,"Chào bạn, bạn có thể dùng điểm thưởng để đổi quà. Điểm thưởng của bạn cũng giúp bạn lên hạng thành viên.",kb_points,False,False
+23,Với mức chi tiêu của tôi thì khi nào lên hạng tiếp theo?,"Để biết khi nào bạn lên hạng tiếp theo, vui lòng cung cấp thêm thông tin về mức chi tiêu hiện tại của bạn.",,False,True
+24,Có gói dịch vụ nào phù hợp với tôi không?,"Chào bạn, để biết gói dịch vụ nào phù hợp, bạn vui lòng cung cấp thêm thông tin về nhu cầu của mình nhé.",,False,False
+25,Tôi muốn khiếu nại vì nhân viên phục vụ thái độ rất tệ.,"Chúng tôi rất tiếc khi trải nghiệm của bạn chưa được tốt. Để chúng tôi có thể hỗ trợ bạn tốt nhất, vui lòng cung cấp thêm thông tin chi tiết về sự việc.",,True,False
+26,"Tôi bị trừ tiền hai lần nhưng chỉ đặt một dịch vụ, xử lý ngay!",Tôi rất tiếc khi nghe về vấn đề bạn gặp phải. Để tôi kiểm tra lại giao dịch này cho bạn.,,True,True
+27,"Dịch vụ làm hỏng đồ của tôi, tôi yêu cầu bồi thường.","Chúng tôi rất tiếc khi nghe về sự cố này. Để giải quyết vấn đề bồi thường, chúng tôi cần chuyển thông tin của bạn cho bộ phận hỗ trợ khách hàng chuyên trách. Họ sẽ liên hệ với bạn sớm nhất có thể.",,True,False
+28,Tôi cực kỳ thất vọng và muốn gặp quản lý ngay bây giờ.,"Tôi rất tiếc khi nghe về trải nghiệm không hài lòng của quý khách. Để giải quyết vấn đề này một cách tốt nhất, tôi xin phép chuyển yêu cầu của quý khách đến bộ phận chăm sóc khách hàng cấp cao hơn để được hỗ trợ kịp thời ạ.",,True,False
+29,"Tài khoản của tôi bị hack, có giao dịch lạ, giúp tôi gấp!","Chúng tôi rất tiếc khi nghe về vấn đề tài khoản của bạn. Để bảo vệ thông tin và tài khoản của bạn, chúng tôi sẽ chuyển vấn đề này cho bộ phận hỗ trợ chuyên trách để xử lý gấp.",,True,False
+30,Tôi muốn báo cáo một lỗi nghiêm trọng làm mất tiền của tôi.,"Chúng tôi rất tiếc khi nghe về vấn đề bạn gặp phải. Để giải quyết vấn đề này nhanh chóng, chúng tôi sẽ chuyển yêu cầu của bạn cho bộ phận hỗ trợ chuyên trách.",,True,False

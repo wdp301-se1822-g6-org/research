@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "text": "Trung tâm mở cửa lúc mấy giờ?",
+    "gold": "kb_hours",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 2,
+    "text": "Mấy giờ thì đóng cửa vậy?",
+    "gold": "kb_hours",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 3,
+    "text": "Tôi muốn đổi lịch hẹn thì có mất phí không?",
+    "gold": "kb_return",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 4,
+    "text": "Chính sách hủy dịch vụ như thế nào?",
+    "gold": "kb_return",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 5,
+    "text": "Bên mình thanh toán bằng MoMo được không?",
+    "gold": "kb_payment",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 6,
+    "text": "Tôi đặt lịch dịch vụ ở đâu trong app?",
+    "gold": "kb_booking",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 7,
+    "text": "Quên mật khẩu thì làm sao đăng nhập lại?",
+    "gold": "kb_account",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 8,
+    "text": "Khi nào tôi nhận lại được tiền hoàn?",
+    "gold": "kb_refund_time",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 9,
+    "text": "Cho mình xin số hotline liên hệ?",
+    "gold": "kb_contact",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 10,
+    "text": "Dữ liệu cá nhân của tôi có được bảo mật không?",
+    "gold": "kb_privacy",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 11,
+    "text": "Tôi tích điểm thưởng bằng cách nào?",
+    "gold": "kb_points",
+    "esc": false,
+    "pers": false,
+    "cat": "loyalty"
+  },
+  {
+    "id": 12,
+    "text": "Hệ thống có mấy hạng thành viên?",
+    "gold": "kb_tier",
+    "esc": false,
+    "pers": false,
+    "cat": "loyalty"
+  },
+  {
+    "id": 13,
+    "text": "Tôi cần bao nhiêu điểm để lên hạng Gold?",
+    "gold": "kb_tier_gold",
+    "esc": false,
+    "pers": false,
+    "cat": "loyalty"
+  },
+  {
+    "id": 14,
+    "text": "Lên hạng Platinum cần bao nhiêu điểm?",
+    "gold": "kb_tier",
+    "esc": false,
+    "pers": false,
+    "cat": "loyalty"
+  },
+  {
+    "id": 15,
+    "text": "Có voucher giảm giá nào đang áp dụng không?",
+    "gold": "kb_voucher",
+    "esc": false,
+    "pers": false,
+    "cat": "loyalty"
+  },
+  {
+    "id": 16,
+    "text": "Điểm thưởng dùng để làm gì?",
+    "gold": "kb_points",
+    "esc": false,
+    "pers": false,
+    "cat": "loyalty"
+  },
+  {
+    "id": 17,
+    "text": "Hạng cao hơn thì được ưu đãi gì?",
+    "gold": "kb_voucher",
+    "esc": false,
+    "pers": false,
+    "cat": "loyalty"
+  },
+  {
+    "id": 18,
+    "text": "1 điểm tương ứng bao nhiêu tiền chi tiêu?",
+    "gold": "kb_points",
+    "esc": false,
+    "pers": false,
+    "cat": "loyalty"
+  },
+  {
+    "id": 19,
+    "text": "Tôi đang có 1200 điểm, còn thiếu bao nhiêu để lên Gold?",
+    "gold": "kb_tier_gold",
+    "esc": false,
+    "pers": true,
+    "cat": "personal"
+  },
+  {
+    "id": 20,
+    "text": "Tôi vừa đặt dịch vụ spa, có ưu đãi nào cho tôi không?",
+    "gold": "kb_voucher",
+    "esc": false,
+    "pers": true,
+    "cat": "personal"
+  },
+  {
+    "id": 21,
+    "text": "Hạng hiện tại của tôi có được giảm giá thêm không?",
+    "gold": "kb_voucher",
+    "esc": false,
+    "pers": true,
+    "cat": "personal"
+  },
+  {
+    "id": 22,
+    "text": "Tôi nên dùng điểm của mình để đổi gì thì lợi nhất?",
+    "gold": "kb_points",
+    "esc": false,
+    "pers": true,
+    "cat": "personal"
+  },
+  {
+    "id": 23,
+    "text": "Với mức chi tiêu của tôi thì khi nào lên hạng tiếp theo?",
+    "gold": "kb_tier",
+    "esc": false,
+    "pers": true,
+    "cat": "personal"
+  },
+  {
+    "id": 24,
+    "text": "Có gói dịch vụ nào phù hợp với tôi không?",
+    "gold": "kb_booking",
+    "esc": false,
+    "pers": true,
+    "cat": "personal"
+  },
+  {
+    "id": 25,
+    "text": "Tôi muốn khiếu nại vì nhân viên phục vụ thái độ rất tệ.",
+    "gold": null,
+    "esc": true,
+    "pers": false,
+    "cat": "escalate"
+  },
+  {
+    "id": 26,
+    "text": "Tôi bị trừ tiền hai lần nhưng chỉ đặt một dịch vụ, xử lý ngay!",
+    "gold": null,
+    "esc": true,
+    "pers": false,
+    "cat": "escalate"
+  },
+  {
+    "id": 27,
+    "text": "Dịch vụ làm hỏng đồ của tôi, tôi yêu cầu bồi thường.",
+    "gold": null,
+    "esc": true,
+    "pers": false,
+    "cat": "escalate"
+  },
+  {
+    "id": 28,
+    "text": "Tôi cực kỳ thất vọng và muốn gặp quản lý ngay bây giờ.",
+    "gold": null,
+    "esc": true,
+    "pers": false,
+    "cat": "escalate"
+  },
+  {
+    "id": 29,
+    "text": "Tài khoản của tôi bị hack, có giao dịch lạ, giúp tôi gấp!",
+    "gold": null,
+    "esc": true,
+    "pers": false,
+    "cat": "escalate"
+  },
+  {
+    "id": 30,
+    "text": "Tôi muốn báo cáo một lỗi nghiêm trọng làm mất tiền của tôi.",
+    "gold": null,
+    "esc": true,
+    "pers": false,
+    "cat": "escalate"
+  }
+]

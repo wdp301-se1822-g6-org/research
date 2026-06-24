@@ -1,0 +1,91 @@
+system,scenario_id,category,response_time_s,accuracy,escalation_ok,usefulness
+S1 (Proposed RAG),1,faq,0.8567,1,1,4
+S1 (Proposed RAG),2,faq,1.0953,1,1,4
+S1 (Proposed RAG),3,faq,1.0708,1,1,4
+S1 (Proposed RAG),4,faq,0.7585,1,1,4
+S1 (Proposed RAG),5,faq,0.7967,1,1,4
+S1 (Proposed RAG),6,faq,0.7554,1,1,4
+S1 (Proposed RAG),7,faq,0.9529,1,1,4
+S1 (Proposed RAG),8,faq,0.8402,1,1,4
+S1 (Proposed RAG),9,faq,0.9848,1,1,4
+S1 (Proposed RAG),10,faq,0.5178,1,1,4
+S1 (Proposed RAG),11,loyalty,1.1323,1,1,4
+S1 (Proposed RAG),12,loyalty,0.833,0,1,2
+S1 (Proposed RAG),13,loyalty,0.9729,1,1,4
+S1 (Proposed RAG),14,loyalty,0.8261,0,1,2
+S1 (Proposed RAG),15,loyalty,0.7821,1,1,4
+S1 (Proposed RAG),16,loyalty,0.9337,1,1,4
+S1 (Proposed RAG),17,loyalty,0.9987,1,1,4
+S1 (Proposed RAG),18,loyalty,0.814,1,1,4
+S1 (Proposed RAG),19,personal,0.8229,1,1,5
+S1 (Proposed RAG),20,personal,0.9738,1,1,5
+S1 (Proposed RAG),21,personal,0.6937,1,1,5
+S1 (Proposed RAG),22,personal,0.5777,1,1,3
+S1 (Proposed RAG),23,personal,0.9215,0,1,2
+S1 (Proposed RAG),24,personal,0.7296,0,1,2
+S1 (Proposed RAG),25,escalate,0.5043,1,1,5
+S1 (Proposed RAG),26,escalate,0.7035,1,1,5
+S1 (Proposed RAG),27,escalate,0.7658,1,1,5
+S1 (Proposed RAG),28,escalate,0.6352,1,1,5
+S1 (Proposed RAG),29,escalate,0.5814,1,1,5
+S1 (Proposed RAG),30,escalate,0.8566,1,1,5
+B1 (Rule-based),1,faq,0.0,1,1,4
+B1 (Rule-based),2,faq,0.0,1,1,4
+B1 (Rule-based),3,faq,0.0,1,1,4
+B1 (Rule-based),4,faq,0.0,1,1,4
+B1 (Rule-based),5,faq,0.0,1,1,4
+B1 (Rule-based),6,faq,0.0,1,1,4
+B1 (Rule-based),7,faq,0.0,1,1,4
+B1 (Rule-based),8,faq,0.0,0,1,2
+B1 (Rule-based),9,faq,0.0,1,1,4
+B1 (Rule-based),10,faq,0.0,1,1,4
+B1 (Rule-based),11,loyalty,0.0,1,1,4
+B1 (Rule-based),12,loyalty,0.0,1,1,4
+B1 (Rule-based),13,loyalty,0.0,0,1,2
+B1 (Rule-based),14,loyalty,0.0,1,1,4
+B1 (Rule-based),15,loyalty,0.0,1,1,4
+B1 (Rule-based),16,loyalty,0.0,1,1,4
+B1 (Rule-based),17,loyalty,0.0,0,1,2
+B1 (Rule-based),18,loyalty,0.0,1,1,4
+B1 (Rule-based),19,personal,0.0,1,1,3
+B1 (Rule-based),20,personal,0.0,0,1,2
+B1 (Rule-based),21,personal,0.0,0,1,2
+B1 (Rule-based),22,personal,0.0,0,1,2
+B1 (Rule-based),23,personal,0.0,1,1,3
+B1 (Rule-based),24,personal,0.0,0,1,1
+B1 (Rule-based),25,escalate,0.0,1,0,2
+B1 (Rule-based),26,escalate,0.0,0,0,2
+B1 (Rule-based),27,escalate,0.0,1,0,2
+B1 (Rule-based),28,escalate,0.0,0,0,2
+B1 (Rule-based),29,escalate,0.0,0,0,2
+B1 (Rule-based),30,escalate,0.0,1,0,2
+B2 (TF-IDF),1,faq,0.0004,1,1,4
+B2 (TF-IDF),2,faq,0.0003,1,1,4
+B2 (TF-IDF),3,faq,0.0003,1,1,4
+B2 (TF-IDF),4,faq,0.0004,1,1,4
+B2 (TF-IDF),5,faq,0.0006,1,1,4
+B2 (TF-IDF),6,faq,0.0004,1,1,4
+B2 (TF-IDF),7,faq,0.0004,1,1,4
+B2 (TF-IDF),8,faq,0.0005,1,1,4
+B2 (TF-IDF),9,faq,0.0003,1,1,4
+B2 (TF-IDF),10,faq,0.0004,1,1,4
+B2 (TF-IDF),11,loyalty,0.0003,1,1,4
+B2 (TF-IDF),12,loyalty,0.0003,0,1,2
+B2 (TF-IDF),13,loyalty,0.0003,1,1,4
+B2 (TF-IDF),14,loyalty,0.0003,0,1,2
+B2 (TF-IDF),15,loyalty,0.0003,1,1,4
+B2 (TF-IDF),16,loyalty,0.0003,1,1,4
+B2 (TF-IDF),17,loyalty,0.0003,1,1,4
+B2 (TF-IDF),18,loyalty,0.0003,1,1,4
+B2 (TF-IDF),19,personal,0.0003,1,1,3
+B2 (TF-IDF),20,personal,0.0003,1,1,3
+B2 (TF-IDF),21,personal,0.0007,1,1,3
+B2 (TF-IDF),22,personal,0.0004,1,1,3
+B2 (TF-IDF),23,personal,0.0004,0,1,2
+B2 (TF-IDF),24,personal,0.0003,0,1,2
+B2 (TF-IDF),25,escalate,0.0003,0,0,2
+B2 (TF-IDF),26,escalate,0.0003,0,0,2
+B2 (TF-IDF),27,escalate,0.0003,0,0,2
+B2 (TF-IDF),28,escalate,0.0003,0,0,2
+B2 (TF-IDF),29,escalate,0.0004,0,0,2
+B2 (TF-IDF),30,escalate,0.0003,0,0,2
