@@ -29,3 +29,23 @@ scenario_id,text,answer,used_kb_id,escalate,personalized
 28,Tôi cực kỳ thất vọng và muốn gặp quản lý ngay bây giờ.,"Tôi rất tiếc khi nghe về trải nghiệm không hài lòng của quý khách. Để giải quyết vấn đề này một cách tốt nhất, tôi xin phép chuyển yêu cầu của quý khách đến bộ phận chăm sóc khách hàng cấp cao hơn để được hỗ trợ kịp thời ạ.",,True,False
 29,"Tài khoản của tôi bị hack, có giao dịch lạ, giúp tôi gấp!","Chúng tôi rất tiếc khi nghe về vấn đề tài khoản của bạn. Để bảo vệ thông tin và tài khoản của bạn, chúng tôi sẽ chuyển vấn đề này cho bộ phận hỗ trợ chuyên trách để xử lý gấp.",,True,False
 30,Tôi muốn báo cáo một lỗi nghiêm trọng làm mất tiền của tôi.,"Chúng tôi rất tiếc khi nghe về vấn đề bạn gặp phải. Để giải quyết vấn đề này nhanh chóng, chúng tôi sẽ chuyển yêu cầu của bạn cho bộ phận hỗ trợ chuyên trách.",,True,False
+31,Tôi thanh toán bằng thẻ Visa quốc tế được không?,Chúng tôi hỗ trợ thanh toán bằng thẻ Visa quốc tế ạ.,kb_payment,False,False
+32,Trung tâm có làm việc vào ngày lễ không?,"Trung tâm dịch vụ mở cửa 8:00–22:00 hằng ngày, kể cả cuối tuần và ngày lễ.",kb_hours,False,False
+33,Làm sao để cập nhật thông tin tài khoản của tôi?,"Xin lỗi, tôi không có thông tin về cách cập nhật thông tin tài khoản. Bạn vui lòng liên hệ bộ phận hỗ trợ để được trợ giúp nhé.",,True,False
+34,Cho tôi hỏi chính sách hoàn và đổi dịch vụ?,Bạn có thể đổi hoặc hủy dịch vụ miễn phí trước 24 giờ so với lịch hẹn.,kb_return,False,False
+35,Tôi liên hệ hỗ trợ qua email nào?,Bạn có thể liên hệ hỗ trợ qua email support@smartservice.vn.,kb_contact,False,False
+36,Khi mua hàng thì tôi được tích điểm như thế nào?,"Chào bạn, mỗi 10.000đ chi tiêu bạn sẽ được tích 1 điểm thưởng. Điểm thưởng này có thể dùng để đổi quà và lên hạng thành viên ạ.",kb_points,False,False
+37,Hạng Silver cần bao nhiêu điểm thưởng?,"Chào bạn, để đạt hạng Silver, bạn cần tích lũy 500 điểm thưởng ạ.",kb_tier,False,False
+38,Sự khác biệt giữa các hạng thành viên là gì?,"Chào bạn, chương trình khách hàng thân thiết của chúng tôi có 4 hạng: Bronze, Silver (500 điểm), Gold (1500 điểm), và Platinum (3000 điểm). Điểm thưởng được tích lũy dựa trên chi tiêu và có thể dùng để đổi quà cũng như lên hạng.",,False,False
+39,Khuyến mãi hiện tại đang áp dụng cho những gì?,Các voucher hiện có được hiển thị trong mục 'Ưu đãi'. Hạng thành viên càng cao thì ưu đãi càng lớn.,kb_voucher,False,False
+40,Điểm thưởng có thể đổi được những gì?,Điểm thưởng của bạn có thể dùng để đổi quà và lên hạng thành viên.,kb_points,False,False
+41,"Tôi đang ở hạng Gold, tôi được hưởng ưu đãi gì thêm?","Chào bạn, là khách hàng hạng Gold, bạn sẽ nhận được các ưu đãi hấp dẫn hơn trong mục 'Ưu đãi'. Hạng càng cao, ưu đãi càng lớn ạ.",kb_voucher,False,True
+42,Với số điểm hiện tại của tôi thì đổi được quà nào?,"Chào bạn, để biết bạn có thể đổi quà gì với số điểm hiện tại, vui lòng cung cấp thông tin về số điểm bạn đang có ạ.",kb_points,False,True
+43,"Tôi vừa hủy một dịch vụ, khi nào tôi nhận lại tiền?",Tiền hoàn sẽ về tài khoản của bạn trong vòng 3–5 ngày làm việc.,kb_refund_time,False,True
+44,Tài khoản của tôi đang ở hạng nào và cần gì để lên hạng tiếp?,"Chào bạn, hiện tại chúng tôi chưa thể truy cập thông tin tài khoản cá nhân của bạn. Vui lòng cung cấp thêm thông tin để chúng tôi hỗ trợ bạn tốt nhất. Tuy nhiên, để đạt hạng Gold bạn cần tích lũy 1500 điểm thưởng. Có 4 hạng thành viên là Bronze, Silver (500 điểm), Gold (1500 điểm), Platinum (3000 điểm).",,False,True
+45,"Dựa trên lịch sử dùng dịch vụ của tôi, nên đặt gói nào?","Để biết gói dịch vụ phù hợp nhất với bạn, vui lòng cung cấp thêm thông tin về nhu cầu sử dụng của bạn.",,False,False
+46,"Nhân viên hứa hoàn tiền nhưng 2 tuần rồi chưa thấy, tôi rất bực!",Tôi xin lỗi vì sự chậm trễ này. Vui lòng cung cấp thêm thông tin để tôi kiểm tra ạ.,,True,True
+47,Tôi bị tính phí sai và yêu cầu giải quyết ngay lập tức.,"Tôi rất tiếc khi nghe về vấn đề này. Để giải quyết yêu cầu của bạn, tôi cần chuyển bạn đến bộ phận hỗ trợ khách hàng để được xử lý chi tiết hơn.",,True,False
+48,"Dịch vụ quá tệ, tôi muốn hủy toàn bộ và được bồi thường.",Chúng tôi rất tiếc khi trải nghiệm của bạn không được tốt. Vui lòng cung cấp thêm thông tin để chúng tôi có thể hỗ trợ bạn tốt nhất.,,True,False
+49,"Có người lạ đăng nhập tài khoản của tôi, cần hỗ trợ khẩn cấp!",Chúng tôi hiểu sự lo lắng của bạn. Vui lòng cung cấp thêm thông tin để chúng tôi có thể hỗ trợ bạn tốt nhất. Chúng tôi sẽ chuyển yêu cầu của bạn đến bộ phận chuyên trách để xử lý khẩn cấp.,,True,False
+50,Tôi muốn khiếu nại chính thức và yêu cầu gặp quản lý cấp cao.,"Tôi rất tiếc khi bạn có trải nghiệm không tốt. Để giải quyết vấn đề của bạn một cách tốt nhất, tôi xin phép chuyển yêu cầu của bạn đến bộ phận chăm sóc khách hàng cấp cao để được hỗ trợ trực tiếp.",,True,False

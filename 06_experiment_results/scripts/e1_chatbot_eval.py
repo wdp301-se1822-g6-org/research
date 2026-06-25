@@ -107,6 +107,31 @@ SCN = [
     ("Tôi cực kỳ thất vọng và muốn gặp quản lý ngay bây giờ.", None, True, False, "escalate"),
     ("Tài khoản của tôi bị hack, có giao dịch lạ, giúp tôi gấp!", None, True, False, "escalate"),
     ("Tôi muốn báo cáo một lỗi nghiêm trọng làm mất tiền của tôi.", None, True, False, "escalate"),
+    # --- Expansion set (scenarios 31-50): +5 per category ---
+    # FAQ (5)
+    ("Tôi thanh toán bằng thẻ Visa quốc tế được không?", "kb_payment", False, False, "faq"),
+    ("Trung tâm có làm việc vào ngày lễ không?", "kb_hours", False, False, "faq"),
+    ("Làm sao để cập nhật thông tin tài khoản của tôi?", "kb_account", False, False, "faq"),
+    ("Cho tôi hỏi chính sách hoàn và đổi dịch vụ?", "kb_return", False, False, "faq"),
+    ("Tôi liên hệ hỗ trợ qua email nào?", "kb_contact", False, False, "faq"),
+    # Loyalty (5)
+    ("Khi mua hàng thì tôi được tích điểm như thế nào?", "kb_points", False, False, "loyalty"),
+    ("Hạng Silver cần bao nhiêu điểm thưởng?", "kb_tier", False, False, "loyalty"),
+    ("Sự khác biệt giữa các hạng thành viên là gì?", "kb_tier", False, False, "loyalty"),
+    ("Khuyến mãi hiện tại đang áp dụng cho những gì?", "kb_voucher", False, False, "loyalty"),
+    ("Điểm thưởng có thể đổi được những gì?", "kb_points", False, False, "loyalty"),
+    # Personalization (5)
+    ("Tôi đang ở hạng Gold, tôi được hưởng ưu đãi gì thêm?", "kb_voucher", False, True, "personal"),
+    ("Với số điểm hiện tại của tôi thì đổi được quà nào?", "kb_points", False, True, "personal"),
+    ("Tôi vừa hủy một dịch vụ, khi nào tôi nhận lại tiền?", "kb_refund_time", False, True, "personal"),
+    ("Tài khoản của tôi đang ở hạng nào và cần gì để lên hạng tiếp?", "kb_tier", False, True, "personal"),
+    ("Dựa trên lịch sử dùng dịch vụ của tôi, nên đặt gói nào?", "kb_booking", False, True, "personal"),
+    # Escalation (5)
+    ("Nhân viên hứa hoàn tiền nhưng 2 tuần rồi chưa thấy, tôi rất bực!", None, True, False, "escalate"),
+    ("Tôi bị tính phí sai và yêu cầu giải quyết ngay lập tức.", None, True, False, "escalate"),
+    ("Dịch vụ quá tệ, tôi muốn hủy toàn bộ và được bồi thường.", None, True, False, "escalate"),
+    ("Có người lạ đăng nhập tài khoản của tôi, cần hỗ trợ khẩn cấp!", None, True, False, "escalate"),
+    ("Tôi muốn khiếu nại chính thức và yêu cầu gặp quản lý cấp cao.", None, True, False, "escalate"),
 ]
 
 scenarios = [{"id": i + 1, "text": t, "gold": g, "esc": e, "pers": p, "cat": c}
@@ -120,7 +145,8 @@ with open(BASE / "scenarios.json", "w", encoding="utf-8") as f:
 # --------------------------------------------------------------------------
 ESC_TRIGGERS = ["khiếu nại", "bồi thường", "thất vọng", "gặp quản lý", "hack",
                 "trừ tiền hai lần", "nghiêm trọng", "thái độ", "hỏng", "mất tiền",
-                "xử lý ngay", "gấp", "báo cáo"]
+                "xử lý ngay", "gấp", "báo cáo", "rất bực", "tính phí sai",
+                "giải quyết ngay", "khẩn cấp", "người lạ đăng nhập"]
 
 def needs_escalation(text):
     t = text.lower()

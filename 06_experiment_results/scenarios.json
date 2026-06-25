@@ -238,5 +238,165 @@
     "esc": true,
     "pers": false,
     "cat": "escalate"
+  },
+  {
+    "id": 31,
+    "text": "Tôi thanh toán bằng thẻ Visa quốc tế được không?",
+    "gold": "kb_payment",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 32,
+    "text": "Trung tâm có làm việc vào ngày lễ không?",
+    "gold": "kb_hours",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 33,
+    "text": "Làm sao để cập nhật thông tin tài khoản của tôi?",
+    "gold": "kb_account",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 34,
+    "text": "Cho tôi hỏi chính sách hoàn và đổi dịch vụ?",
+    "gold": "kb_return",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 35,
+    "text": "Tôi liên hệ hỗ trợ qua email nào?",
+    "gold": "kb_contact",
+    "esc": false,
+    "pers": false,
+    "cat": "faq"
+  },
+  {
+    "id": 36,
+    "text": "Khi mua hàng thì tôi được tích điểm như thế nào?",
+    "gold": "kb_points",
+    "esc": false,
+    "pers": false,
+    "cat": "loyalty"
+  },
+  {
+    "id": 37,
+    "text": "Hạng Silver cần bao nhiêu điểm thưởng?",
+    "gold": "kb_tier",
+    "esc": false,
+    "pers": false,
+    "cat": "loyalty"
+  },
+  {
+    "id": 38,
+    "text": "Sự khác biệt giữa các hạng thành viên là gì?",
+    "gold": "kb_tier",
+    "esc": false,
+    "pers": false,
+    "cat": "loyalty"
+  },
+  {
+    "id": 39,
+    "text": "Khuyến mãi hiện tại đang áp dụng cho những gì?",
+    "gold": "kb_voucher",
+    "esc": false,
+    "pers": false,
+    "cat": "loyalty"
+  },
+  {
+    "id": 40,
+    "text": "Điểm thưởng có thể đổi được những gì?",
+    "gold": "kb_points",
+    "esc": false,
+    "pers": false,
+    "cat": "loyalty"
+  },
+  {
+    "id": 41,
+    "text": "Tôi đang ở hạng Gold, tôi được hưởng ưu đãi gì thêm?",
+    "gold": "kb_voucher",
+    "esc": false,
+    "pers": true,
+    "cat": "personal"
+  },
+  {
+    "id": 42,
+    "text": "Với số điểm hiện tại của tôi thì đổi được quà nào?",
+    "gold": "kb_points",
+    "esc": false,
+    "pers": true,
+    "cat": "personal"
+  },
+  {
+    "id": 43,
+    "text": "Tôi vừa hủy một dịch vụ, khi nào tôi nhận lại tiền?",
+    "gold": "kb_refund_time",
+    "esc": false,
+    "pers": true,
+    "cat": "personal"
+  },
+  {
+    "id": 44,
+    "text": "Tài khoản của tôi đang ở hạng nào và cần gì để lên hạng tiếp?",
+    "gold": "kb_tier",
+    "esc": false,
+    "pers": true,
+    "cat": "personal"
+  },
+  {
+    "id": 45,
+    "text": "Dựa trên lịch sử dùng dịch vụ của tôi, nên đặt gói nào?",
+    "gold": "kb_booking",
+    "esc": false,
+    "pers": true,
+    "cat": "personal"
+  },
+  {
+    "id": 46,
+    "text": "Nhân viên hứa hoàn tiền nhưng 2 tuần rồi chưa thấy, tôi rất bực!",
+    "gold": null,
+    "esc": true,
+    "pers": false,
+    "cat": "escalate"
+  },
+  {
+    "id": 47,
+    "text": "Tôi bị tính phí sai và yêu cầu giải quyết ngay lập tức.",
+    "gold": null,
+    "esc": true,
+    "pers": false,
+    "cat": "escalate"
+  },
+  {
+    "id": 48,
+    "text": "Dịch vụ quá tệ, tôi muốn hủy toàn bộ và được bồi thường.",
+    "gold": null,
+    "esc": true,
+    "pers": false,
+    "cat": "escalate"
+  },
+  {
+    "id": 49,
+    "text": "Có người lạ đăng nhập tài khoản của tôi, cần hỗ trợ khẩn cấp!",
+    "gold": null,
+    "esc": true,
+    "pers": false,
+    "cat": "escalate"
+  },
+  {
+    "id": 50,
+    "text": "Tôi muốn khiếu nại chính thức và yêu cầu gặp quản lý cấp cao.",
+    "gold": null,
+    "esc": true,
+    "pers": false,
+    "cat": "escalate"
   }
 ]

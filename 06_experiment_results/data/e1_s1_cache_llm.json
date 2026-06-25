@@ -208,5 +208,145 @@
     "escalate": true,
     "personalized": false,
     "response_time_s": 4.0855
+  },
+  "31": {
+    "answer": "Chúng tôi hỗ trợ thanh toán bằng thẻ Visa quốc tế ạ.",
+    "used_kb_id": "kb_payment",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 41.5084
+  },
+  "32": {
+    "answer": "Trung tâm dịch vụ mở cửa 8:00–22:00 hằng ngày, kể cả cuối tuần và ngày lễ.",
+    "used_kb_id": "kb_hours",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 39.2141
+  },
+  "33": {
+    "answer": "Xin lỗi, tôi không có thông tin về cách cập nhật thông tin tài khoản. Bạn vui lòng liên hệ bộ phận hỗ trợ để được trợ giúp nhé.",
+    "used_kb_id": null,
+    "escalate": true,
+    "personalized": false,
+    "response_time_s": 11.9027
+  },
+  "34": {
+    "answer": "Bạn có thể đổi hoặc hủy dịch vụ miễn phí trước 24 giờ so với lịch hẹn.",
+    "used_kb_id": "kb_return",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 39.4661
+  },
+  "35": {
+    "answer": "Bạn có thể liên hệ hỗ trợ qua email support@smartservice.vn.",
+    "used_kb_id": "kb_contact",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 15.2154
+  },
+  "36": {
+    "answer": "Chào bạn, mỗi 10.000đ chi tiêu bạn sẽ được tích 1 điểm thưởng. Điểm thưởng này có thể dùng để đổi quà và lên hạng thành viên ạ.",
+    "used_kb_id": "kb_points",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 4.1238
+  },
+  "37": {
+    "answer": "Chào bạn, để đạt hạng Silver, bạn cần tích lũy 500 điểm thưởng ạ.",
+    "used_kb_id": "kb_tier",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 16.1412
+  },
+  "38": {
+    "answer": "Chào bạn, chương trình khách hàng thân thiết của chúng tôi có 4 hạng: Bronze, Silver (500 điểm), Gold (1500 điểm), và Platinum (3000 điểm). Điểm thưởng được tích lũy dựa trên chi tiêu và có thể dùng để đổi quà cũng như lên hạng.",
+    "used_kb_id": null,
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 7.796
+  },
+  "39": {
+    "answer": "Các voucher hiện có được hiển thị trong mục 'Ưu đãi'. Hạng thành viên càng cao thì ưu đãi càng lớn.",
+    "used_kb_id": "kb_voucher",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 8.3071
+  },
+  "40": {
+    "answer": "Điểm thưởng của bạn có thể dùng để đổi quà và lên hạng thành viên.",
+    "used_kb_id": "kb_points",
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 7.4094
+  },
+  "41": {
+    "answer": "Chào bạn, là khách hàng hạng Gold, bạn sẽ nhận được các ưu đãi hấp dẫn hơn trong mục 'Ưu đãi'. Hạng càng cao, ưu đãi càng lớn ạ.",
+    "used_kb_id": "kb_voucher",
+    "escalate": false,
+    "personalized": true,
+    "response_time_s": 26.5251
+  },
+  "42": {
+    "answer": "Chào bạn, để biết bạn có thể đổi quà gì với số điểm hiện tại, vui lòng cung cấp thông tin về số điểm bạn đang có ạ.",
+    "used_kb_id": "kb_points",
+    "escalate": false,
+    "personalized": true,
+    "response_time_s": 8.4811
+  },
+  "43": {
+    "answer": "Tiền hoàn sẽ về tài khoản của bạn trong vòng 3–5 ngày làm việc.",
+    "used_kb_id": "kb_refund_time",
+    "escalate": false,
+    "personalized": true,
+    "response_time_s": 7.1426
+  },
+  "44": {
+    "answer": "Chào bạn, hiện tại chúng tôi chưa thể truy cập thông tin tài khoản cá nhân của bạn. Vui lòng cung cấp thêm thông tin để chúng tôi hỗ trợ bạn tốt nhất. Tuy nhiên, để đạt hạng Gold bạn cần tích lũy 1500 điểm thưởng. Có 4 hạng thành viên là Bronze, Silver (500 điểm), Gold (1500 điểm), Platinum (3000 điểm).",
+    "used_kb_id": null,
+    "escalate": false,
+    "personalized": true,
+    "response_time_s": 17.1522
+  },
+  "45": {
+    "answer": "Để biết gói dịch vụ phù hợp nhất với bạn, vui lòng cung cấp thêm thông tin về nhu cầu sử dụng của bạn.",
+    "used_kb_id": null,
+    "escalate": false,
+    "personalized": false,
+    "response_time_s": 25.0445
+  },
+  "46": {
+    "answer": "Tôi xin lỗi vì sự chậm trễ này. Vui lòng cung cấp thêm thông tin để tôi kiểm tra ạ.",
+    "used_kb_id": null,
+    "escalate": true,
+    "personalized": true,
+    "response_time_s": 9.8325
+  },
+  "47": {
+    "answer": "Tôi rất tiếc khi nghe về vấn đề này. Để giải quyết yêu cầu của bạn, tôi cần chuyển bạn đến bộ phận hỗ trợ khách hàng để được xử lý chi tiết hơn.",
+    "used_kb_id": null,
+    "escalate": true,
+    "personalized": false,
+    "response_time_s": 12.7048
+  },
+  "48": {
+    "answer": "Chúng tôi rất tiếc khi trải nghiệm của bạn không được tốt. Vui lòng cung cấp thêm thông tin để chúng tôi có thể hỗ trợ bạn tốt nhất.",
+    "used_kb_id": null,
+    "escalate": true,
+    "personalized": false,
+    "response_time_s": 6.8122
+  },
+  "49": {
+    "answer": "Chúng tôi hiểu sự lo lắng của bạn. Vui lòng cung cấp thêm thông tin để chúng tôi có thể hỗ trợ bạn tốt nhất. Chúng tôi sẽ chuyển yêu cầu của bạn đến bộ phận chuyên trách để xử lý khẩn cấp.",
+    "used_kb_id": null,
+    "escalate": true,
+    "personalized": false,
+    "response_time_s": 8.4408
+  },
+  "50": {
+    "answer": "Tôi rất tiếc khi bạn có trải nghiệm không tốt. Để giải quyết vấn đề của bạn một cách tốt nhất, tôi xin phép chuyển yêu cầu của bạn đến bộ phận chăm sóc khách hàng cấp cao để được hỗ trợ trực tiếp.",
+    "used_kb_id": null,
+    "escalate": true,
+    "personalized": false,
+    "response_time_s": 7.0403
   }
 }

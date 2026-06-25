@@ -9,7 +9,7 @@ reproducible with fixed random seeds.
 
 | Exp. | Question addressed | Method | Data |
 |---|---|---|---|
-| **E1** | RQ1, RQ5 — Does an AI-powered (retrieval-augmented) assistant outperform conventional customer-service baselines? | Real-LLM RAG vs. rule-based and TF-IDF baselines on 30 labelled scenarios | 12-entry KB + 30 annotated scenarios (real `gemini-2.5-flash-lite`) |
+| **E1** | RQ1, RQ5 — Does an AI-powered (retrieval-augmented) assistant outperform conventional customer-service baselines? | Real-LLM RAG vs. rule-based and TF-IDF baselines on 50 labelled scenarios | 12-entry KB + 50 annotated scenarios (real `gemini-2.5-flash-lite`) |
 | **E2** | RQ1–RQ3 — Which service factors drive trust, satisfaction and loyalty intention? | 24-item, 8-construct Likert questionnaire; reliability + correlation + OLS regression | 52 simulated respondents |
 | **E3** | RQ4 — Can customer behaviour predict loyalty retention / tier progression? | Majority baseline vs. Logistic Regression, Random Forest, XGBoost | 1,000 simulated customers |
 
@@ -34,9 +34,9 @@ policy, payment, booking, loyalty points, membership tiers, vouchers, account
 recovery, refund timing, contact, and data privacy (Vietnamese content for a
 smart booking/service platform with a 4-tier loyalty program).
 
-**Scenarios (n = 30).** Annotated with the gold knowledge-base entry, whether
+**Scenarios (n = 50).** Annotated with the gold knowledge-base entry, whether
 human escalation is required, and whether personalization is required.
-Distribution: 10 FAQ, 8 loyalty/promotion, 6 personalization, 6
+Distribution: 15 FAQ, 13 loyalty/promotion, 11 personalization, 11
 escalation/complaint. Stored in `scenarios.json`.
 
 **Metrics.** Accuracy (correct entry retrieved, or correct escalation),

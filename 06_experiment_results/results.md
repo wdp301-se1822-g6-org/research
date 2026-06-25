@@ -5,49 +5,53 @@ fixed seeds and are fully reproducible. Numbers are reported to three decimals.
 
 ---
 
-## E1 — Chatbot Prototype vs. Baselines (30 scenarios)
+## E1 — Chatbot Prototype vs. Baselines (50 scenarios)
 
 S1 (the proposed assistant) is implemented with a **real LLM** — Google
 `gemini-2.5-flash-lite` via the Gemini API — using TF-IDF retrieval of the
 top-3 knowledge-base entries as grounding context (true retrieval-augmented
 generation). B1 and B2 remain the deterministic rule-based and TF-IDF baselines.
-Response times are real wall-clock measurements of the live API.
+The benchmark has 50 annotated scenarios (15 FAQ, 13 loyalty, 11
+personalization, 11 escalation). Response times are real wall-clock
+measurements of the live API.
 
 **Table 1. Overall system comparison.**
 
 | System | Avg. Response Time (s) | Avg. Usefulness (1–5) | Accuracy (%) | Escalation Handling (%) |
 |---|---:|---:|---:|---:|
-| **S1 (Proposed RAG, real LLM)** | 8.42 | **4.07** | **93.3** | **100.0** |
-| B1 (Rule-based) | <0.001 | 3.03 | 66.7 | 80.0 |
-| B2 (TF-IDF) | <0.001 | 3.20 | 66.7 | 80.0 |
+| **S1 (Proposed RAG, real LLM)** | 11.46 | **3.98** | **88.0** | **98.0** |
+| B1 (Rule-based) | <0.001 | 3.04 | 68.0 | 78.0 |
+| B2 (TF-IDF) | <0.001 | 3.12 | 64.0 | 78.0 |
 
 **Table 2. Accuracy (%) by scenario category.**
 
 | System | FAQ | Loyalty | Personalization | Escalation |
 |---|---:|---:|---:|---:|
-| **S1 (Proposed RAG, real LLM)** | 100.0 | **100.0** | **66.7** | **100.0** |
-| B1 (Rule-based) | 90.0 | 75.0 | 33.3 | 50.0 |
-| B2 (TF-IDF) | 100.0 | 75.0 | 66.7 | 0.0 |
+| **S1 (Proposed RAG, real LLM)** | 93.3 | **92.3** | 63.6 | **100.0** |
+| B1 (Rule-based) | 93.3 | 76.9 | 45.5 | 45.5 |
+| B2 (TF-IDF) | 93.3 | 76.9 | **72.7** | 0.0 |
 
 **Findings.**
 
-- The proposed assistant (S1) reached **93.3% overall accuracy and a 4.07/5
-  usefulness score**, versus 66.7% accuracy and ≤3.20 usefulness for both
-  baselines — a relative usefulness gain of **27–34%**.
-- S1 answered **all FAQ and all loyalty scenarios correctly (100%)** and
-  detected **every escalation case (100% vs. 50%/0%)**, politely handing
-  complaints to a human while the baselines answered them inappropriately.
-- On **personalization** S1 (66.7%) doubled the rule-based bot (33.3%). The real
-  LLM also performed genuine reasoning the baselines cannot: e.g. for *"I have
+- Over 50 scenarios the proposed assistant (S1) reached **88.0% overall accuracy
+  and a 3.98/5 usefulness score**, versus 64–68% accuracy and ≤3.12 usefulness
+  for both baselines — a relative usefulness gain of **28–31%**.
+- S1's largest, most consistent advantage is **escalation**: it detected all 11
+  complaint/security cases (100% vs. 45.5%/0%), politely routing them to a human
+  while the baselines answered them inappropriately. It also led on **loyalty**
+  explanations (92.3% vs. 76.9%).
+- The real LLM performed genuine reasoning the baselines cannot: for *"I have
   1,200 points, how many more to reach Gold?"* it answered *"Gold needs 1,500
   points, so you are 300 short,"* computing the gap from the grounded rule.
-- The trade-off is **latency**: S1 averages 8.42 s of real API time (network +
+- The trade-off is **latency**: S1 averages 11.46 s of real API time (network +
   inference), whereas the baselines respond in under 1 ms — the expected
   efficiency-versus-quality paradox of generative AI service (Ferraro et al.,
   2024).
-- The two personalization misses (scenarios 23–24) occurred when the customer
-  context needed (current spending/tier) was not in the prompt; the LLM
-  correctly asked a clarifying question instead of inventing an answer.
+- The honest failure modes: S1 lost on personalization (63.6%) when the customer
+  context was not in the prompt — it correctly asked a clarifying question
+  instead of inventing an answer — and it **over-escalated one FAQ** (an account
+  query it routed to a human), the single reason escalation handling is 98%
+  rather than 100%. Over-escalation is a safer error than wrong automation.
 
 *Figure: `figures/e1_system_comparison.png` — usefulness and accuracy bars.
 Per-scenario data: `data/e1_per_scenario_llm.csv`; full LLM answers:
@@ -171,8 +175,8 @@ XGBoost max_depth = 7, n_estimators = 200.
 The three experiments triangulate the central claim of the paper:
 
 1. **E1** shows a real-LLM AI-powered assistant delivers materially better
-   service quality on the hard, loyalty-relevant interactions (personalization,
-   escalation) than conventional baselines.
+   service quality on the hard, loyalty-relevant interactions (escalation and
+   loyalty explanations) than conventional baselines.
 2. **E2** shows that those same service factors — quality, personalization,
    problem-solving, empathy — significantly raise **trust and satisfaction**,
    which in turn drive **loyalty intention**, while privacy risk erodes
@@ -196,7 +200,7 @@ proactive retention.
 - **Construct relationships in E2 are partly encoded in the data-generating
   model**; the experiment validates the analysis pipeline and effect direction,
   not external generalizability.
-- **E1 scope.** The knowledge base and 30 scenarios are a controlled benchmark;
+- **E1 scope.** The knowledge base and 50 scenarios are a controlled benchmark;
   a larger, real customer-query distribution may yield different accuracy, and
   LLM latency depends on the chosen model and API conditions.
 
