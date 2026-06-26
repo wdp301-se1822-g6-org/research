@@ -5,3 +5,9 @@ Thumbs.db
 *.rar
 obsidian_notes/
 git ignore/
+.env
+*.pyc
+__pycache__/
+*.egg-info/
+build/
+dist/

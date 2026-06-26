@@ -2,4 +2,4 @@ Model,Accuracy,Precision,Recall,F1,ROC_AUC
 Baseline (majority),0.67,0.67,1.0,0.8024,0.5
 Logistic Regression,0.77,0.7785,0.9179,0.8425,0.8055
 Random Forest,0.755,0.7673,0.9104,0.8328,0.7992
-XGBoost,0.745,0.7712,0.8806,0.8223,0.7639
+XGBoost,0.72,0.7532,0.8657,0.8056,0.7614

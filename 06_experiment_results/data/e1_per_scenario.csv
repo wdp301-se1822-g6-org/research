@@ -1,28 +1,28 @@
 system,scenario_id,category,response_time_s,accuracy,escalation_ok,usefulness
-S1 (Proposed RAG),1,faq,0.8586,1,1,4
-S1 (Proposed RAG),2,faq,1.0954,1,1,4
-S1 (Proposed RAG),3,faq,1.0711,1,1,4
-S1 (Proposed RAG),4,faq,0.7585,1,1,4
-S1 (Proposed RAG),5,faq,0.7968,1,1,4
-S1 (Proposed RAG),6,faq,0.7555,1,1,4
-S1 (Proposed RAG),7,faq,0.9529,1,1,4
+S1 (Proposed RAG),1,faq,0.8637,1,1,4
+S1 (Proposed RAG),2,faq,1.0955,1,1,4
+S1 (Proposed RAG),3,faq,1.071,1,1,4
+S1 (Proposed RAG),4,faq,0.7588,1,1,4
+S1 (Proposed RAG),5,faq,0.7969,1,1,4
+S1 (Proposed RAG),6,faq,0.7556,1,1,4
+S1 (Proposed RAG),7,faq,0.9532,1,1,4
 S1 (Proposed RAG),8,faq,0.8404,1,1,4
-S1 (Proposed RAG),9,faq,0.9848,1,1,4
+S1 (Proposed RAG),9,faq,0.985,1,1,4
 S1 (Proposed RAG),10,faq,0.518,1,1,4
 S1 (Proposed RAG),11,loyalty,1.1325,1,1,4
-S1 (Proposed RAG),12,loyalty,0.833,0,1,2
+S1 (Proposed RAG),12,loyalty,0.8334,0,1,2
 S1 (Proposed RAG),13,loyalty,0.973,1,1,4
 S1 (Proposed RAG),14,loyalty,0.8259,0,1,2
-S1 (Proposed RAG),15,loyalty,0.7821,1,1,4
-S1 (Proposed RAG),16,loyalty,0.9337,1,1,4
-S1 (Proposed RAG),17,loyalty,0.9987,1,1,4
-S1 (Proposed RAG),18,loyalty,0.8139,1,1,4
-S1 (Proposed RAG),19,personal,0.8229,1,1,5
-S1 (Proposed RAG),20,personal,0.9739,1,1,5
-S1 (Proposed RAG),21,personal,0.6938,1,1,5
-S1 (Proposed RAG),22,personal,0.5778,1,1,3
-S1 (Proposed RAG),23,personal,0.9216,0,1,2
-S1 (Proposed RAG),24,personal,0.7298,0,1,2
+S1 (Proposed RAG),15,loyalty,0.7822,1,1,4
+S1 (Proposed RAG),16,loyalty,0.9338,1,1,4
+S1 (Proposed RAG),17,loyalty,0.9989,1,1,4
+S1 (Proposed RAG),18,loyalty,0.814,1,1,4
+S1 (Proposed RAG),19,personal,0.8232,1,1,5
+S1 (Proposed RAG),20,personal,0.9742,1,1,5
+S1 (Proposed RAG),21,personal,0.6941,1,1,5
+S1 (Proposed RAG),22,personal,0.5782,1,1,3
+S1 (Proposed RAG),23,personal,0.922,0,1,2
+S1 (Proposed RAG),24,personal,0.7299,0,1,2
 S1 (Proposed RAG),25,escalate,0.5043,1,1,5
 S1 (Proposed RAG),26,escalate,0.7035,1,1,5
 S1 (Proposed RAG),27,escalate,0.7658,1,1,5
@@ -30,19 +30,19 @@ S1 (Proposed RAG),28,escalate,0.6352,1,1,5
 S1 (Proposed RAG),29,escalate,0.5814,1,1,5
 S1 (Proposed RAG),30,escalate,0.8566,1,1,5
 S1 (Proposed RAG),31,faq,1.012,1,1,4
-S1 (Proposed RAG),32,faq,0.8084,1,1,4
-S1 (Proposed RAG),33,faq,0.7168,0,1,2
-S1 (Proposed RAG),34,faq,0.9197,1,1,4
-S1 (Proposed RAG),35,faq,0.9794,1,1,4
-S1 (Proposed RAG),36,loyalty,0.7964,1,1,4
-S1 (Proposed RAG),37,loyalty,0.9484,0,1,2
-S1 (Proposed RAG),38,loyalty,1.0381,1,1,4
-S1 (Proposed RAG),39,loyalty,0.8131,1,1,4
+S1 (Proposed RAG),32,faq,0.8086,1,1,4
+S1 (Proposed RAG),33,faq,0.7169,0,1,2
+S1 (Proposed RAG),34,faq,0.9199,1,1,4
+S1 (Proposed RAG),35,faq,0.9797,1,1,4
+S1 (Proposed RAG),36,loyalty,0.7965,1,1,4
+S1 (Proposed RAG),37,loyalty,0.9486,0,1,2
+S1 (Proposed RAG),38,loyalty,1.0384,1,1,4
+S1 (Proposed RAG),39,loyalty,0.8133,1,1,4
 S1 (Proposed RAG),40,loyalty,0.704,1,1,4
-S1 (Proposed RAG),41,personal,0.9129,1,1,5
+S1 (Proposed RAG),41,personal,0.913,1,1,5
 S1 (Proposed RAG),42,personal,0.8951,1,1,5
-S1 (Proposed RAG),43,personal,1.0481,1,1,5
-S1 (Proposed RAG),44,personal,0.6191,0,1,2
+S1 (Proposed RAG),43,personal,1.0482,1,1,5
+S1 (Proposed RAG),44,personal,0.6192,0,1,2
 S1 (Proposed RAG),45,personal,0.7314,1,1,5
 S1 (Proposed RAG),46,escalate,0.6991,1,1,5
 S1 (Proposed RAG),47,escalate,0.5379,1,1,5
@@ -99,53 +99,53 @@ B1 (Rule-based),47,escalate,0.0,1,0,2
 B1 (Rule-based),48,escalate,0.0,0,0,2
 B1 (Rule-based),49,escalate,0.0,0,0,2
 B1 (Rule-based),50,escalate,0.0,1,0,2
-B2 (TF-IDF),1,faq,0.0005,1,1,4
+B2 (TF-IDF),1,faq,0.0006,1,1,4
 B2 (TF-IDF),2,faq,0.0005,1,1,4
 B2 (TF-IDF),3,faq,0.0005,1,1,4
-B2 (TF-IDF),4,faq,0.0004,1,1,4
-B2 (TF-IDF),5,faq,0.0004,1,1,4
-B2 (TF-IDF),6,faq,0.0003,1,1,4
-B2 (TF-IDF),7,faq,0.0005,1,1,4
-B2 (TF-IDF),8,faq,0.0003,1,1,4
-B2 (TF-IDF),9,faq,0.0005,1,1,4
-B2 (TF-IDF),10,faq,0.0004,1,1,4
+B2 (TF-IDF),4,faq,0.0005,1,1,4
+B2 (TF-IDF),5,faq,0.0007,1,1,4
+B2 (TF-IDF),6,faq,0.0005,1,1,4
+B2 (TF-IDF),7,faq,0.0004,1,1,4
+B2 (TF-IDF),8,faq,0.0004,1,1,4
+B2 (TF-IDF),9,faq,0.0004,1,1,4
+B2 (TF-IDF),10,faq,0.0005,1,1,4
 B2 (TF-IDF),11,loyalty,0.0004,1,1,4
-B2 (TF-IDF),12,loyalty,0.0003,0,1,2
-B2 (TF-IDF),13,loyalty,0.0005,1,1,4
+B2 (TF-IDF),12,loyalty,0.0004,0,1,2
+B2 (TF-IDF),13,loyalty,0.0004,1,1,4
 B2 (TF-IDF),14,loyalty,0.0004,0,1,2
-B2 (TF-IDF),15,loyalty,0.0003,1,1,4
-B2 (TF-IDF),16,loyalty,0.0005,1,1,4
+B2 (TF-IDF),15,loyalty,0.0004,1,1,4
+B2 (TF-IDF),16,loyalty,0.0004,1,1,4
 B2 (TF-IDF),17,loyalty,0.0004,1,1,4
-B2 (TF-IDF),18,loyalty,0.0003,1,1,4
-B2 (TF-IDF),19,personal,0.0003,1,1,3
-B2 (TF-IDF),20,personal,0.0003,1,1,3
-B2 (TF-IDF),21,personal,0.0003,1,1,3
+B2 (TF-IDF),18,loyalty,0.0005,1,1,4
+B2 (TF-IDF),19,personal,0.0005,1,1,3
+B2 (TF-IDF),20,personal,0.0005,1,1,3
+B2 (TF-IDF),21,personal,0.0005,1,1,3
 B2 (TF-IDF),22,personal,0.0005,1,1,3
-B2 (TF-IDF),23,personal,0.0005,0,1,2
-B2 (TF-IDF),24,personal,0.0004,0,1,2
-B2 (TF-IDF),25,escalate,0.0003,0,0,2
-B2 (TF-IDF),26,escalate,0.0003,0,0,2
-B2 (TF-IDF),27,escalate,0.0004,0,0,2
-B2 (TF-IDF),28,escalate,0.0003,0,0,2
-B2 (TF-IDF),29,escalate,0.0005,0,0,2
-B2 (TF-IDF),30,escalate,0.0004,0,0,2
-B2 (TF-IDF),31,faq,0.0003,1,1,4
-B2 (TF-IDF),32,faq,0.0004,1,1,4
-B2 (TF-IDF),33,faq,0.0004,0,1,2
-B2 (TF-IDF),34,faq,0.0004,1,1,4
-B2 (TF-IDF),35,faq,0.0005,1,1,4
-B2 (TF-IDF),36,loyalty,0.0003,1,1,4
-B2 (TF-IDF),37,loyalty,0.0003,0,1,2
-B2 (TF-IDF),38,loyalty,0.0003,1,1,4
-B2 (TF-IDF),39,loyalty,0.0003,1,1,4
-B2 (TF-IDF),40,loyalty,0.0003,1,1,4
-B2 (TF-IDF),41,personal,0.0003,1,1,3
-B2 (TF-IDF),42,personal,0.0003,1,1,3
-B2 (TF-IDF),43,personal,0.0003,1,1,3
-B2 (TF-IDF),44,personal,0.0003,0,1,2
+B2 (TF-IDF),23,personal,0.0006,0,1,2
+B2 (TF-IDF),24,personal,0.0006,0,1,2
+B2 (TF-IDF),25,escalate,0.0006,0,0,2
+B2 (TF-IDF),26,escalate,0.0007,0,0,2
+B2 (TF-IDF),27,escalate,0.0006,0,0,2
+B2 (TF-IDF),28,escalate,0.0006,0,0,2
+B2 (TF-IDF),29,escalate,0.0006,0,0,2
+B2 (TF-IDF),30,escalate,0.0006,0,0,2
+B2 (TF-IDF),31,faq,0.0006,1,1,4
+B2 (TF-IDF),32,faq,0.0005,1,1,4
+B2 (TF-IDF),33,faq,0.0005,0,1,2
+B2 (TF-IDF),34,faq,0.0005,1,1,4
+B2 (TF-IDF),35,faq,0.0007,1,1,4
+B2 (TF-IDF),36,loyalty,0.0005,1,1,4
+B2 (TF-IDF),37,loyalty,0.0005,0,1,2
+B2 (TF-IDF),38,loyalty,0.0004,1,1,4
+B2 (TF-IDF),39,loyalty,0.0005,1,1,4
+B2 (TF-IDF),40,loyalty,0.0004,1,1,4
+B2 (TF-IDF),41,personal,0.0004,1,1,3
+B2 (TF-IDF),42,personal,0.0004,1,1,3
+B2 (TF-IDF),43,personal,0.0004,1,1,3
+B2 (TF-IDF),44,personal,0.0004,0,1,2
 B2 (TF-IDF),45,personal,0.0004,1,1,3
 B2 (TF-IDF),46,escalate,0.0004,0,0,2
-B2 (TF-IDF),47,escalate,0.0003,0,0,2
-B2 (TF-IDF),48,escalate,0.0007,0,0,2
+B2 (TF-IDF),47,escalate,0.0004,0,0,2
+B2 (TF-IDF),48,escalate,0.0004,0,0,2
 B2 (TF-IDF),49,escalate,0.0004,0,0,2
-B2 (TF-IDF),50,escalate,0.0003,0,0,2
+B2 (TF-IDF),50,escalate,0.0004,0,0,2
