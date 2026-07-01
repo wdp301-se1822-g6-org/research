@@ -1,0 +1,12 @@
+Construct,Items,Valid_N,Score_N,Mean,SD,Cronbach_alpha
+Semantic Understanding,5,625,648,3.159,0.718,0.895
+Human-AI Collaboration,6,625,647,3.166,0.727,0.903
+Human-Like Interaction,4,591,647,3.065,0.775,0.88
+Continuous Improvement,4,651,651,3.177,0.693,0.749
+Personalization,4,651,651,3.066,0.721,0.755
+Cultural Adaptation,4,651,651,3.108,0.717,0.771
+Efficiency,4,619,651,3.136,0.79,0.881
+Customer Value,4,644,644,3.122,0.727,0.761
+Satisfaction,5,724,724,3.153,0.686,0.827
+Trust,5,724,724,3.135,0.7,0.785
+Customer Loyalty,5,723,724,3.134,0.718,0.802

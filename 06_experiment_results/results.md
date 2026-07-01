@@ -1,7 +1,9 @@
 # Experimental Results
 
-All results below are produced by `scripts/run_all.py` on simulated data with
-fixed seeds and are fully reproducible. Numbers are reported to three decimals.
+All results below are produced by the experiment scripts and are fully
+reproducible. E1 uses a real LLM with cached outputs, E2 uses a verified public
+survey dataset from Mendeley Data, and E3 uses synthetic customer data with a
+fixed random seed. Numbers are reported to three decimals.
 
 ---
 
@@ -59,81 +61,97 @@ Per-scenario data: `data/e1_per_scenario_llm.csv`; full LLM answers:
 
 ---
 
-## E2 — User Survey (n = 52, simulated pilot)
+## E2 — Public Survey Dataset (Mendeley Data, banking chatbot users)
+
+E2 now uses a **verified public survey dataset** rather than simulated
+respondents: *Data on Banking Chatbot Service Quality*, Mendeley Data V4,
+DOI `10.17632/jsvbvgzkf8.4`, CC BY 4.0. The raw dataset contains 737 banking
+chatbot survey responses. The original file codes missing/incomplete answers as
+`0` and uses 1 = Strongly Agree through 5 = Strongly disagree, so the analysis
+converts `0` to missing values and reverse-codes Likert items as `6 - value`.
 
 **Table 3. Reliability and descriptive statistics.**
 
-| Construct | Mean | SD | Cronbach's α |
-|---|---:|---:|---:|
-| AI Service Quality | 3.76 | 0.72 | 0.859 |
-| Personalization | 3.33 | 0.79 | 0.877 |
-| Problem Solving | 3.68 | 0.80 | 0.898 |
-| Perceived Empathy | 3.29 | 0.89 | 0.912 |
-| Privacy Risk | 3.08 | 0.78 | 0.886 |
-| Trust | 3.62 | 0.63 | 0.730 |
-| Satisfaction | 3.67 | 0.71 | 0.820 |
-| Loyalty Intention | 3.47 | 0.69 | 0.849 |
+| Construct | Score N | Mean | SD | Cronbach's α |
+|---|---:|---:|---:|---:|
+| Semantic Understanding | 648 | 3.16 | 0.72 | 0.895 |
+| Human-AI Collaboration | 647 | 3.17 | 0.73 | 0.903 |
+| Human-Like Interaction | 647 | 3.07 | 0.78 | 0.880 |
+| Continuous Improvement | 651 | 3.18 | 0.69 | 0.749 |
+| Personalization | 651 | 3.07 | 0.72 | 0.755 |
+| Cultural Adaptation | 651 | 3.11 | 0.72 | 0.771 |
+| Efficiency | 651 | 3.14 | 0.79 | 0.881 |
+| Customer Value | 644 | 3.12 | 0.73 | 0.761 |
+| Satisfaction | 724 | 3.15 | 0.69 | 0.827 |
+| Trust | 724 | 3.14 | 0.70 | 0.785 |
+| Customer Loyalty | 724 | 3.13 | 0.72 | 0.802 |
 
-All constructs exceed the 0.70 reliability threshold (α = 0.730–0.912), so the
-measurement scales are internally consistent.
+All constructs exceed the 0.70 reliability threshold (α = 0.749–0.903), so the
+measurement scales are internally consistent after reverse-coding.
 
 **Table 4. Selected Pearson correlations.**
 
 | Pair | r |
 |---|---:|
-| Trust ↔ Loyalty Intention | 0.782 |
-| Problem Solving ↔ Trust | 0.551 |
-| Personalization ↔ Trust | 0.533 |
-| Satisfaction ↔ Loyalty Intention | 0.473 |
-| Privacy Risk ↔ Satisfaction | −0.388 |
-| Privacy Risk ↔ Trust | −0.269 |
+| Trust ↔ Customer Loyalty | 0.736 |
+| Satisfaction ↔ Customer Loyalty | 0.718 |
+| Trust ↔ Satisfaction | 0.660 |
+| Customer Value ↔ Trust | 0.317 |
+| Customer Value ↔ Customer Loyalty | 0.305 |
+| Personalization ↔ Customer Loyalty | 0.225 |
 
-Trust shows the strongest association with loyalty intention (r = 0.782), and
-privacy risk is consistently negatively correlated with trust and satisfaction.
+Trust and Satisfaction show the strongest associations with Customer Loyalty,
+which is consistent with the proposed loyalty pathway.
 
-**Table 5. OLS regression results** (standardized-scale predictors; *** p<0.001,
+**Table 5. OLS regression results** (standardized predictors; *** p<0.001,
 ** p<0.01, * p<0.05).
 
-*Model 1 — Trust ~ service factors (R² = 0.636, adj. R² = 0.596)*
+*Model 1 — Trust ~ chatbot service factors (N = 645, R² = 0.095, adj. R² = 0.085)*
 
 | Predictor | β | t | p | |
 |---|---:|---:|---:|---|
-| Service Quality | 0.202 | 2.45 | 0.018 | * |
-| Personalization | 0.291 | 3.84 | 0.0004 | *** |
-| Problem Solving | 0.291 | 3.91 | 0.0003 | *** |
-| Perceived Empathy | 0.198 | 2.97 | 0.005 | ** |
-| Privacy Risk | −0.102 | −1.37 | 0.178 | ns |
+| Semantic Understanding | 0.170 | 3.37 | 0.0008 | *** |
+| Human-AI Collaboration | −0.019 | −0.33 | 0.741 | ns |
+| Human-Like Interaction | −0.069 | −1.25 | 0.213 | ns |
+| Continuous Improvement | 0.029 | 0.53 | 0.599 | ns |
+| Personalization | 0.003 | 0.05 | 0.962 | ns |
+| Cultural Adaptation | 0.175 | 3.22 | 0.0013 | ** |
+| Efficiency | 0.062 | 1.30 | 0.194 | ns |
 
-*Model 2 — Satisfaction ~ service factors (R² = 0.509, adj. R² = 0.456)*
-
-| Predictor | β | t | p | |
-|---|---:|---:|---:|---|
-| Service Quality | 0.224 | 2.10 | 0.041 | * |
-| Personalization | 0.229 | 2.34 | 0.024 | * |
-| Problem Solving | 0.344 | 3.56 | 0.0009 | *** |
-| Perceived Empathy | −0.001 | −0.01 | 0.994 | ns |
-| Privacy Risk | −0.275 | −2.86 | 0.006 | ** |
-
-*Model 3 — Loyalty Intention ~ Trust + Satisfaction (R² = 0.647, adj. R² = 0.633)*
+*Model 2 — Satisfaction ~ chatbot service factors + Customer Value (N = 640, R² = 0.107, adj. R² = 0.096)*
 
 | Predictor | β | t | p | |
 |---|---:|---:|---:|---|
-| Trust | 0.766 | 7.67 | <0.001 | *** |
-| Satisfaction | 0.198 | 2.21 | 0.032 | * |
+| Semantic Understanding | 0.180 | 3.51 | 0.0005 | *** |
+| Human-AI Collaboration | −0.045 | −0.80 | 0.421 | ns |
+| Human-Like Interaction | −0.028 | −0.51 | 0.614 | ns |
+| Continuous Improvement | −0.063 | −1.14 | 0.253 | ns |
+| Personalization | 0.055 | 1.01 | 0.314 | ns |
+| Cultural Adaptation | 0.140 | 2.54 | 0.011 | * |
+| Efficiency | −0.014 | −0.30 | 0.764 | ns |
+| Customer Value | 0.139 | 2.73 | 0.0065 | ** |
+
+*Model 3 — Customer Loyalty ~ Trust + Satisfaction + Customer Value (N = 644, R² = 0.649, adj. R² = 0.647)*
+
+| Predictor | β | t | p | |
+|---|---:|---:|---:|---|
+| Trust | 0.440 | 13.89 | <0.001 | *** |
+| Satisfaction | 0.424 | 13.59 | <0.001 | *** |
+| Customer Value | 0.053 | 2.15 | 0.032 | * |
 
 **Findings.**
 
-- **Service quality, personalization, problem-solving and perceived empathy all
-  significantly increase Trust** (Model 1, R² = 0.64), supporting RQ1/RQ2.
-- **Problem-solving most strongly drives Satisfaction** (β = 0.344, p < 0.001),
-  and **privacy risk significantly reduces Satisfaction** (β = −0.275,
-  p < 0.01), confirming the risk pathway in RQ2.
-- **Trust is the dominant predictor of Loyalty Intention** (β = 0.766,
-  p < 0.001), with satisfaction adding a smaller significant contribution
-  (Model 3, R² = 0.65). This supports RQ3: trust and satisfaction mediate the
-  link from AI service factors to loyalty.
+- **Semantic understanding and cultural adaptation significantly increase Trust**
+  in the verified banking-chatbot survey data, supporting the importance of
+  accurate understanding and context-fit in AI service quality.
+- **Semantic understanding, cultural adaptation, and customer value significantly
+  increase Satisfaction**, while the other service dimensions are not significant
+  after controlling for overlapping service-quality factors.
+- **Trust and Satisfaction are the dominant predictors of Customer Loyalty**
+  (Model 3, R² = 0.649), supporting RQ3 with a real public survey dataset rather
+  than simulated responses.
 
-*Figure: `figures/e2_correlation_heatmap.png`.*
+*Figure: `figures/e2_external_correlation_heatmap.png`.*
 
 ---
 
@@ -146,7 +164,7 @@ privacy risk is consistently negatively correlated with trust and satisfaction.
 | Baseline (majority) | 0.670 | 0.670 | 1.000 | 0.802 | 0.500 |
 | **Logistic Regression** | **0.770** | **0.779** | 0.918 | **0.843** | **0.806** |
 | Random Forest | 0.755 | 0.767 | 0.910 | 0.833 | 0.799 |
-| XGBoost | 0.745 | 0.771 | 0.881 | 0.822 | 0.764 |
+| XGBoost | 0.720 | 0.753 | 0.866 | 0.806 | 0.761 |
 
 Best hyper-parameters: LogReg C = 0.1; RF n_estimators = 100, max_depth = None;
 XGBoost max_depth = 7, n_estimators = 200.
@@ -177,10 +195,10 @@ The three experiments triangulate the central claim of the paper:
 1. **E1** shows a real-LLM AI-powered assistant delivers materially better
    service quality on the hard, loyalty-relevant interactions (escalation and
    loyalty explanations) than conventional baselines.
-2. **E2** shows that those same service factors — quality, personalization,
-   problem-solving, empathy — significantly raise **trust and satisfaction**,
-   which in turn drive **loyalty intention**, while privacy risk erodes
-   satisfaction.
+2. **E2** shows, using a verified public banking-chatbot survey dataset, that
+   semantic understanding and cultural adaptation are associated with **trust**
+   and **satisfaction**, and that trust and satisfaction strongly drive
+   **customer loyalty**.
 3. **E3** shows that the **behavioural signals of trust, satisfaction,
    engagement and recency** are predictive of retention, enabling a loyalty
    prediction module to flag at-risk customers.
@@ -191,15 +209,17 @@ proactive retention.
 
 ## Threats to Validity
 
-- **Simulated data in E2 and E3.** E2 and E3 use synthetic respondents/customers,
-  so they demonstrate the methodology and expected relationships but must be
-  confirmed on real data. E1 instead uses a **real LLM** on a real knowledge
-  base, but its usefulness is scored with an automated rubric rather than human
-  raters; the full LLM answers are saved (`e1_raw_answers_llm.csv`) for optional
-  human re-rating with inter-rater reliability.
-- **Construct relationships in E2 are partly encoded in the data-generating
-  model**; the experiment validates the analysis pipeline and effect direction,
-  not external generalizability.
+- **E2 secondary-data scope.** E2 now uses a verified public dataset rather than
+  simulated respondents, but it is secondary data from banking chatbot users in
+  India. The findings may not generalize to every smart service ecosystem, and
+  the dataset does not directly measure privacy risk.
+- **Synthetic data in E3.** E3 uses synthetic customers, so it demonstrates the
+  prediction pipeline and expected relationships but must be confirmed on real
+  customer records.
+- **E1 scoring.** E1 uses a **real LLM** on a real knowledge base, but its
+  usefulness is scored with an automated rubric rather than human raters; the
+  full LLM answers are saved (`e1_raw_answers_llm.csv`) for optional human
+  re-rating with inter-rater reliability.
 - **E1 scope.** The knowledge base and 50 scenarios are a controlled benchmark;
   a larger, real customer-query distribution may yield different accuracy, and
   LLM latency depends on the chosen model and API conditions.

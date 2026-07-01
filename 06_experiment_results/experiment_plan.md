@@ -2,6 +2,8 @@
 
 > **Mục tiêu:** Trong ~1 tuần, nhóm phải tạo ra dữ liệu thực nghiệm để điền vào Section 5 (Results) của paper. Plan này bám sát checklist thầy Trương Long (README §16) — phải có baseline, dataset, metrics, và kết quả thực nghiệm/đánh giá chuyên gia.
 
+> **Update:** E2 ban đầu dự kiến dùng survey tự thu thập hoặc dữ liệu mô phỏng. Bản kết quả hiện tại đã thay E2 bằng verified public survey dataset từ Mendeley Data: *Data on Banking Chatbot Service Quality*, DOI `10.17632/jsvbvgzkf8.4`. Xem `experimental_setup.md`, `results.md`, và `data/external/banking_chatbot_mendeley/SOURCE.md`.
+
 ---
 
 ## 1. Tổng quan 3 thí nghiệm
